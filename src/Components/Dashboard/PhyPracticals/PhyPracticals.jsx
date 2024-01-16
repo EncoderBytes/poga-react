@@ -11,6 +11,20 @@ import ACsonometer from './Phy12th/ACsonometer';
 import UvConcave from './Phy12th/UvConcave';
 import FocalLenConvex from './Phy12th/FocalLenConvex';
 import Ohmslaw11 from './Phy11th/Ohmslaw11';
+// 10th
+import FocalLength from './Phy10th/FocalLengthConvex'
+import Magnet from './Phy10th/MagnetField'
+import Parallex from './Phy10th/ParallexCircuit'
+import Refraction from './Phy10th/RefractionByGlassSlab'
+import SeriesCircuit from './Phy10th/SeriesCircuit'
+import VereifyOhm from './Phy10th/VerifyOhmLaw'
+// 9th
+import VernierCaliper from './Phy9th/VernierCaliper'
+import PendulumOne from './Phy9th/PendulumOne'
+import PendulumTwo from './Phy9th/PendulumTwo'
+import GlassSlab from './Phy9th/GlassSlab'
+import MeterRod from './Phy9th/MeterRod'
+
 
 const PhyPracticals = () => {
     return (
@@ -268,14 +282,12 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 py-3 flex-wrap">
-                                <OhmsLaw />
-                                <Potentiometer />
-                                <Emf />
-                                <Galvanometer />
-                                <GalvanoToAmmeter />
-                                <ACsonometer />
-                                <UvConcave />
-                                <FocalLenConvex />
+                                <FocalLength />
+                                <Magnet />
+                                <Parallex />
+                                <Refraction />
+                                <SeriesCircuit />
+                                <VereifyOhm />
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>
@@ -290,14 +302,11 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 py-3 flex-wrap">
-                                <OhmsLaw />
-                                <Potentiometer />
-                                <Emf />
-                                <Galvanometer />
-                                <GalvanoToAmmeter />
-                                <ACsonometer />
-                                <UvConcave />
-                                <FocalLenConvex />
+                                <VernierCaliper />
+                                <PendulumOne />
+                                <PendulumTwo />
+                                <GlassSlab />
+                                <MeterRod />
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>

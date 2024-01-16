@@ -29,7 +29,7 @@ export default {
         // bluePrimary: "#04989E",
         // blueSecondary: "#00C9DA",
         // yellow: "#FFD15C",
-        // navClr: "rgba(255, 255, 255, 0.50);"
+        navClr: "rgba(237, 237, 237, .5)",
         primaryBlue: "#397FC0 ",
         primaryGradient: "#00C6FF",
         textLight: "#8F8F8F",

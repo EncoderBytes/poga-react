@@ -60,9 +60,9 @@ const App = () => {
                   />
 
 
-                  {/* <Route path="EmfExp12" element={<EmfExp12 />} />
+                  <Route path="EmfExp12" element={<EmfExp12 />} />
                   <Route path="PotentiometerExp12" element={<PotentiometerExp12 />} />
-                  <Route path="OhmExp11" element={<OhmExp11 />} /> */}
+                  <Route path="OhmExp11" element={<OhmExp11 />} />
                 </Routes>
               } />
 
