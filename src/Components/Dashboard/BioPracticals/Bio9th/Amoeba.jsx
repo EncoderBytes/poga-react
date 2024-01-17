@@ -17,8 +17,8 @@ const Amoeba = () => {
                     <path d="M16.8271 10L22.8271 16L16.8271 22" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     <defs>
                         <linearGradient id="paint0_linear_70_3352" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#00C6FF" />
-                            <stop offset="1" stop-color="#0072FF" />
+                            <stop stopColor="#00C6FF" />
+                            <stop offset="1" stopColor="#0072FF" />
                         </linearGradient>
                     </defs>
                 </svg>
