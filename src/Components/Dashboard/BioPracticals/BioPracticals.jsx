@@ -2,14 +2,20 @@
 
 import React from 'react'
 import { Accordion } from 'flowbite-react';
-import Emf from "./Bio9th/Emf"
-import Galvanometer from "./Bio9th/Galvanometer"
-import Potentiometer from './Bio9th/Potentiometer';
-import OhmsLaw from './Bio9th/OhmsLaw';
-import GalvanoToAmmeter from './Bio9th/GalvanoToAmmeter';
-import ACsonometer from './Bio9th/ACsonometer';
-import UvConcave from './Bio9th/UvConcave';
-import FocalLenConvex from './Bio9th/FocalLenConvex';
+// 9th
+import CellWall from './Bio9th/CellWallAlovera'
+import MicroScopicEx from './Bio9th/MicroScopicEx'
+import Plasmolysis from './Bio9th/Plasmolysis'
+import Amoeba from './Bio9th/Amoeba'
+import StudyOfBacteria from './Bio9th/StudyOfBacteria'
+
+// 10th
+import BreathingRate from './Bio10th/BreathingRate'
+import TarInCigrette from './Bio10th/TarInCigrette'
+import Kidney from './Bio10th/Kidney'
+import Eye from './Bio10th/Eye'
+import FissionInAmoeba from './Bio10th/FissionInAmoeba'
+
 
 const PhyPracticals = () => {
     return (
@@ -28,7 +34,7 @@ const PhyPracticals = () => {
 
                     <div className="right">
                         <svg xmlns="http://www.w3.org/2000/svg" width="177" height="164" viewBox="0 0 177 164" fill="none">
-                            <g clip-path="url(#clip0_70_2942)">
+                            <g clipPath="url(#clip0_70_2942)">
                                 <path d="M16.8335 119.054L21.9736 122.035V127.755L16.8335 124.764V119.054Z" fill="#3E85F4" />
                                 <path d="M21.9637 122.035L37.839 112.799C39.8285 111.785 42.027 111.257 44.2569 111.257C46.4867 111.257 48.6853 111.785 50.6748 112.799V118.518C48.6853 117.504 46.4867 116.976 44.2569 116.976C42.027 116.976 39.8285 117.504 37.839 118.518L21.9443 127.755L21.9637 122.035Z" fill="#1C6DF6" />
                                 <path d="M50.6943 112.799L55.8345 109.817V115.537L50.6943 118.518V112.799Z" fill="#E7F0F4" />
@@ -203,6 +209,7 @@ const PhyPracticals = () => {
                         </defs>
                     </svg>
 
+
                     <svg xmlns="http://www.w3.org/2000/svg" width="328" height="257" viewBox="0 0 328 244" fill="none" className='absolute right-0 top-0'>
                         <path opacity="0.5" d="M414.773 263.319C433.5 229.952 443 191.669 443 149.512C443 107.356 433.5 68.5272 414.773 35.1598C396.36 2.04879 368.97 -25.1453 335.781 -43.2683C302.409 -61.665 264.039 -71 221.71 -71C179.382 -71 140.938 -61.665 107.392 -43.2683C74.1249 -25.1904 46.6684 2.01069 28.2271 35.1598C9.49972 68.5272 5.32861e-05 106.984 5.14345e-05 149.512C4.95829e-05 192.041 9.49971 230.398 28.2271 263.592C46.7727 296.655 74.2037 323.822 107.392 341.995C140.962 360.591 179.431 370 221.735 370C264.039 370 302.433 360.566 335.856 341.97C368.986 323.693 396.331 296.44 414.773 263.319ZM73.6973 149.438C73.3325 123.477 80.0479 97.9105 93.1173 75.5035C105.837 53.9598 124.176 36.3104 146.158 24.4594C169.55 12.3531 195.489 6.03641 221.809 6.03641C248.129 6.03641 274.068 12.3531 297.461 24.4594C319.341 36.2196 337.585 53.7812 350.204 75.2304C362.793 97.9187 369.4 123.457 369.4 149.426C369.4 175.394 362.793 200.932 350.204 223.621C337.584 245.069 319.34 262.63 297.461 274.392C274.068 286.498 248.129 292.815 221.809 292.815C195.489 292.815 169.55 286.498 146.158 274.392C124.176 262.541 105.837 244.891 93.1173 223.348C80.0499 200.949 73.3345 175.391 73.6973 149.438Z" fill="url(#paint0_linear_70_3117)" />
                         <defs>
@@ -223,14 +230,10 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 my-1 flex-wrap">
-                                <OhmsLaw />
+                                {/* <OhmsLaw />
                                 <Potentiometer />
                                 <Emf />
-                                <Galvanometer />
-                                <GalvanoToAmmeter />
-                                <ACsonometer />
-                                <UvConcave />
-                                <FocalLenConvex />
+                                <Galvanometer /> */}
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>
@@ -245,14 +248,10 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 my-1 flex-wrap">
-                                <OhmsLaw />
+                                {/* <OhmsLaw />
                                 <Potentiometer />
                                 <Emf />
-                                <Galvanometer />
-                                <GalvanoToAmmeter />
-                                <ACsonometer />
-                                <UvConcave />
-                                <FocalLenConvex />
+                                <Galvanometer /> */}
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>
@@ -267,14 +266,11 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 my-1 flex-wrap">
-                                <OhmsLaw />
-                                <Potentiometer />
-                                <Emf />
-                                <Galvanometer />
-                                <GalvanoToAmmeter />
-                                <ACsonometer />
-                                <UvConcave />
-                                <FocalLenConvex />
+                                <BreathingRate />
+                                <TarInCigrette />
+                                <Kidney />
+                                <Eye />
+                                <FissionInAmoeba />
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>
@@ -289,14 +285,11 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 my-1 flex-wrap">
-                                <OhmsLaw />
-                                <Potentiometer />
-                                <Emf />
-                                <Galvanometer />
-                                <GalvanoToAmmeter />
-                                <ACsonometer />
-                                <UvConcave />
-                                <FocalLenConvex />
+                                <CellWall />
+                                <MicroScopicEx />
+                                <Plasmolysis />
+                                <Amoeba />
+                                <StudyOfBacteria />
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>

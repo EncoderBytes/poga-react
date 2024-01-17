@@ -56,24 +56,18 @@ const App = () => {
                       </Routes>
                     </OhmExp12Outlet>
                   }
-
                   />
-
-
                   <Route path="EmfExp12" element={<EmfExp12 />} />
                   <Route path="PotentiometerExp12" element={<PotentiometerExp12 />} />
                   <Route path="OhmExp11" element={<OhmExp11 />} />
                 </Routes>
               } />
 
+              {/* BIOLOGY */}
+              <Route path="biopracticals" element={<BioPracticals />} />
 
-              {/* <Route path="emf" element={<Emf />} /> */}
-
-
-              {/* <Route path="bio" element={<Bio />} />
-                <Route path="biopracticals" element={<BioPracticals />} />
-                <Route path="chem" element={<Chem />} />
-                <Route path="chempracticals" element={<ChemPracticals />} /> */}
+              {/* CHEMISTRY */}
+              <Route path="chempracticals" element={<ChemPracticals />} />
             </Routes>
           </DashboardLayout>
         }
