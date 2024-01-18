@@ -9,6 +9,14 @@ import Naphthalene from './Chem9th/Naphthalene'
 import CopperSulphate from './Chem9th/CopperSulphate'
 import AmmoniumChloride from './Chem9th/AmmoniumChloride'
 
+// 10th
+import FlameTest from './Chem10/FlameTest'
+import Molarity from './Chem10/Molarity'
+import Aldehydes from './Chem10/Aldehydes'
+import Ketones from './Chem10/Ketones'
+import NaOH from './Chem10/NaOH'
+import KMnO4 from './Chem10/KMnO4'
+
 const PhyPracticals = () => {
     return (
         <div className='w-full bg-dashmain py-10'>
@@ -251,7 +259,12 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 my-1 flex-wrap">
-
+                                <FlameTest />
+                                <Molarity />
+                                <Aldehydes />
+                                <Ketones />
+                                <NaOH />
+                                <KMnO4 />
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>
