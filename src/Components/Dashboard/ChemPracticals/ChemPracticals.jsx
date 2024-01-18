@@ -2,14 +2,12 @@
 
 import React from 'react'
 import { Accordion } from 'flowbite-react';
-import Emf from "./Chem9th/Emf"
-import Galvanometer from "./Chem9th/Galvanometer"
-import Potentiometer from './Chem9th/Potentiometer';
-import OhmsLaw from './Chem9th/OhmsLaw';
-import GalvanoToAmmeter from './Chem9th/GalvanoToAmmeter';
-import ACsonometer from './Chem9th/ACsonometer';
-import UvConcave from './Chem9th/UvConcave';
-import FocalLenConvex from './Chem9th/FocalLenConvex';
+// 9th
+import Distilation from './Chem9th/Distilation'
+import EthyleAlcohol from './Chem9th/EthyleAlcohol'
+import Naphthalene from './Chem9th/Naphthalene'
+import CopperSulphate from './Chem9th/CopperSulphate'
+import AmmoniumChloride from './Chem9th/AmmoniumChloride'
 
 const PhyPracticals = () => {
     return (
@@ -223,14 +221,7 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 my-1 flex-wrap">
-                                <OhmsLaw />
-                                <Potentiometer />
-                                <Emf />
-                                <Galvanometer />
-                                <GalvanoToAmmeter />
-                                <ACsonometer />
-                                <UvConcave />
-                                <FocalLenConvex />
+
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>
@@ -245,14 +236,7 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 my-1 flex-wrap">
-                                <OhmsLaw />
-                                <Potentiometer />
-                                <Emf />
-                                <Galvanometer />
-                                <GalvanoToAmmeter />
-                                <ACsonometer />
-                                <UvConcave />
-                                <FocalLenConvex />
+
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>
@@ -267,14 +251,7 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 my-1 flex-wrap">
-                                <OhmsLaw />
-                                <Potentiometer />
-                                <Emf />
-                                <Galvanometer />
-                                <GalvanoToAmmeter />
-                                <ACsonometer />
-                                <UvConcave />
-                                <FocalLenConvex />
+
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>
@@ -289,14 +266,11 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 my-1 flex-wrap">
-                                <OhmsLaw />
-                                <Potentiometer />
-                                <Emf />
-                                <Galvanometer />
-                                <GalvanoToAmmeter />
-                                <ACsonometer />
-                                <UvConcave />
-                                <FocalLenConvex />
+                                <Distilation />
+                                <EthyleAlcohol />
+                                <Naphthalene />
+                                <CopperSulphate />
+                                <AmmoniumChloride />
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>
@@ -304,7 +278,7 @@ const PhyPracticals = () => {
 
 
             </div>
-        </div>
+        </div >
     )
 }
 
