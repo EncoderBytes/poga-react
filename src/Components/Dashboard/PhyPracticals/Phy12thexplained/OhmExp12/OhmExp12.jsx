@@ -1,6 +1,6 @@
 import React from 'react'
 import ohmImage from "../../../../../assets/Ohm1.png"
-import Nav from "../../../Nav/Nav"
+import Nav from "./Nav/Nav"
 
 const OhmExp12 = () => {
     return (

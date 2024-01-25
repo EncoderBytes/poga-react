@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from './Nav/Nav'
 import OhmImage from "../../../../../assets/ohm1.png"
 
-const OhmExp12Outlet = ({ children }) => {
+const FocalLengthConvex10Outlet = ({ children }) => {
     return (
         <div className="bg-dashmain py-5">
             <div className='w-11/12 m-auto '>
@@ -13,8 +13,7 @@ const OhmExp12Outlet = ({ children }) => {
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
-                        }}>Ohm's law and
-                            resistance</div>
+                        }}>FIND THE FOCAL LENGTH OF A CONVEX LENS BY PARALLAX METHOD</div>
                     </div>
 
                     <div className="right p-5">
@@ -31,4 +30,4 @@ const OhmExp12Outlet = ({ children }) => {
     )
 }
 
-export default OhmExp12Outlet
+export default FocalLengthConvex10Outlet

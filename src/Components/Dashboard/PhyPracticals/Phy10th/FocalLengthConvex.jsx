@@ -2,14 +2,14 @@ import React from 'react'
 import focalLenghtConvex from "../../../../assets/focalLenghtConvex.png"
 import { NavLink } from 'react-router-dom'
 
-const OhmsLaw = () => {
+const FocalLengthConvex = () => {
     return (
-        <NavLink to='/Dashmain/phypracticals/OhmExp11'>
+        <NavLink to='/Dashmain/phypracticals/FocalLengthConvex10/theory'>
             <div className='w-64 h-64 bg-overviewWhite border-primaryGradient border-2 rounded-xl relative'>
                 <div className="p-4">
                     <img src={focalLenghtConvex} alt="" className='rounded-md' />
                     <p className="font-semibold text-base text-dark50 mt-2">
-                {/* Find the focal length of a convex lens by parallax method */}
+                Find the focal length of a convex lens by parallax method
 
             </p>
                 </div>
@@ -29,4 +29,4 @@ const OhmsLaw = () => {
     )
 }
 
-export default OhmsLaw
+export default FocalLengthConvex
