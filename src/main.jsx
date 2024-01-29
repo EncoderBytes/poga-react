@@ -21,6 +21,7 @@ import Video from './Components/Dashboard/PhyPracticals/Phy12thexplained/OhmExp1
 import VivaVoice from './Components/Dashboard/PhyPracticals/Phy12thexplained/OhmExp12/NavPages/VivaVoice.jsx';
 import Resources from './Components/Dashboard/PhyPracticals/Phy12thexplained/OhmExp12/NavPages/Resources.jsx';
 import Feedback from './Components/Dashboard/PhyPracticals/Phy12thexplained/OhmExp12/NavPages/Feedback.jsx';
+// 101
 import FLC10Outlet from './Components/Dashboard/PhyPracticals/Phy10thexplained/FocalLengthConvex10/FocalLengthConvex10Outlet.jsx';
 import TheoryPhy101 from "./Components/Dashboard/PhyPracticals/Phy10thexplained/FocalLengthConvex10/NavPages/TheoryPhy101.jsx"
 import Animation101 from "./Components/Dashboard/PhyPracticals/Phy10thexplained/FocalLengthConvex10/NavPages/Animation101.jsx"
@@ -30,6 +31,17 @@ import VivaVoice101 from "./Components/Dashboard/PhyPracticals/Phy10thexplained/
 import Resources101 from "./Components/Dashboard/PhyPracticals/Phy10thexplained/FocalLengthConvex10/NavPages/Resources101.jsx"
 import Feedback101 from "./Components/Dashboard/PhyPracticals/Phy10thexplained/FocalLengthConvex10/NavPages/Feedback101.jsx"
 import Video101 from "./Components/Dashboard/PhyPracticals/Phy10thexplained/FocalLengthConvex10/NavPages/Video101.jsx"
+
+// 102
+import MF10Outlet from './Components/Dashboard/PhyPracticals/Phy10thexplained/MagnetField10/MagnetField10Outlet.jsx'
+import Theory102 from './Components/Dashboard/PhyPracticals/Phy10thexplained/MagnetField10/NavPages/TheoryPhy102.jsx'
+import Animation102 from './Components/Dashboard/PhyPracticals/Phy10thexplained/MagnetField10/NavPages/Animation102.jsx'
+import Procedure102 from './Components/Dashboard/PhyPracticals/Phy10thexplained/MagnetField10/NavPages/Procedure102.jsx'
+import Simulator102 from './Components/Dashboard/PhyPracticals/Phy10thexplained/MagnetField10/NavPages/Simulator102.jsx'
+import VivaVoice102 from './Components/Dashboard/PhyPracticals/Phy10thexplained/MagnetField10/NavPages/VivaVoice102.jsx'
+import Resources102 from './Components/Dashboard/PhyPracticals/Phy10thexplained/MagnetField10/NavPages/Resources102.jsx'
+import Feedback102 from './Components/Dashboard/PhyPracticals/Phy10thexplained/MagnetField10/NavPages/Feedback102.jsx'
+import Video102 from './Components/Dashboard/PhyPracticals/Phy10thexplained/MagnetField10/NavPages/Video102.jsx'
 
 const App = () => {
   return (
@@ -51,7 +63,6 @@ const App = () => {
                   <Route path="OhmExp12/*" element={
                     <OE12O>
                       <Routes>
-                        {/* <Route index element={<OhmExp12 />} /> */}
                         <Route path="theory" element={<Theory />} />
                         <Route path="procedure" element={<Procedure />} />
                         <Route path="animation" element={<Animation />} />
@@ -69,12 +80,9 @@ const App = () => {
                   <Route path="PotentiometerExp12" element={<PotentiometerExp12 />} />
                   <Route path="OhmExp11" element={<OhmExp11 />} />
 
-
-
                   <Route path="FocalLengthConvex10/*" element={
                     <FLC10Outlet>
                       <Routes>
-                        {/* <Route index element={<OhmExp12 />} /> */}
                         <Route path="theory" element={<TheoryPhy101 />} />
                         <Route path="animation" element={<Animation101 />} />
                         <Route path="procedure" element={<Procedure101 />} />
@@ -85,6 +93,22 @@ const App = () => {
                         <Route path="feedback" element={<Feedback101 />} />
                       </Routes>
                     </FLC10Outlet>
+                  }
+                  />
+
+                  <Route path="MagnetField10/*" element={
+                    <MF10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<Theory102 />} />
+                        <Route path="animation" element={<Animation102 />} />
+                        <Route path="procedure" element={<Procedure102 />} />
+                        <Route path="simulator" element={<Simulator102 />} />
+                        <Route path="video" element={<Video102 />} />
+                        <Route path="viva" element={<VivaVoice102 />} />
+                        <Route path="resources" element={<Resources102 />} />
+                        <Route path="feedback" element={<Feedback102 />} />
+                      </Routes>
+                    </MF10Outlet>
                   }
                   />
                 </Routes>
