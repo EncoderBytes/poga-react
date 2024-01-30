@@ -43,6 +43,29 @@ import Resources102 from './Components/Dashboard/PhyPracticals/Phy10thexplained/
 import Feedback102 from './Components/Dashboard/PhyPracticals/Phy10thexplained/MagnetField10/NavPages/Feedback102.jsx'
 import Video102 from './Components/Dashboard/PhyPracticals/Phy10thexplained/MagnetField10/NavPages/Video102.jsx'
 
+// 103
+import PC10Outlet from './Components/Dashboard/PhyPracticals/Phy10thexplained/ParallexCircuit10/ParallexCircuit10Outlet.jsx'
+import Theory103 from './Components/Dashboard/PhyPracticals/Phy10thexplained/ParallexCircuit10/NavPages/TheoryPhy103.jsx'
+import Animation103 from './Components/Dashboard/PhyPracticals/Phy10thexplained/ParallexCircuit10/NavPages/Animation103.jsx'
+import Procedure103 from './Components/Dashboard/PhyPracticals/Phy10thexplained/ParallexCircuit10/NavPages/Procedure103.jsx'
+import Simulator103 from './Components/Dashboard/PhyPracticals/Phy10thexplained/ParallexCircuit10/NavPages/Simulator103.jsx'
+import VivaVoice103 from './Components/Dashboard/PhyPracticals/Phy10thexplained/ParallexCircuit10/NavPages/VivaVoice103.jsx'
+import Resources103 from './Components/Dashboard/PhyPracticals/Phy10thexplained/ParallexCircuit10/NavPages/Resources103.jsx'
+import Feedback103 from './Components/Dashboard/PhyPracticals/Phy10thexplained/ParallexCircuit10/NavPages/Feedback103.jsx'
+import Video103 from './Components/Dashboard/PhyPracticals/Phy10thexplained/ParallexCircuit10/NavPages/Video103.jsx'
+
+// 104
+import RBGS10Outlet from './Components/Dashboard/PhyPracticals/Phy10thexplained/RefractionByGlassSlab10/RefractionByGlassSlab10Outlet.jsx'
+import Theory104 from './Components/Dashboard/PhyPracticals/Phy10thexplained/RefractionByGlassSlab10/NavPages/TheoryPhy104.jsx'
+import Animation104 from './Components/Dashboard/PhyPracticals/Phy10thexplained/RefractionByGlassSlab10/NavPages/Animation104.jsx'
+import Procedure104 from './Components/Dashboard/PhyPracticals/Phy10thexplained/RefractionByGlassSlab10/NavPages/Procedure104.jsx'
+import Simulator104 from './Components/Dashboard/PhyPracticals/Phy10thexplained/RefractionByGlassSlab10/NavPages/Simulator104.jsx'
+import VivaVoice104 from './Components/Dashboard/PhyPracticals/Phy10thexplained/RefractionByGlassSlab10/NavPages/VivaVoice104.jsx'
+import Resources104 from './Components/Dashboard/PhyPracticals/Phy10thexplained/RefractionByGlassSlab10/NavPages/Resources104.jsx'
+import Feedback104 from './Components/Dashboard/PhyPracticals/Phy10thexplained/RefractionByGlassSlab10/NavPages/Feedback104.jsx'
+import Video104 from './Components/Dashboard/PhyPracticals/Phy10thexplained/RefractionByGlassSlab10/NavPages/Video104.jsx'
+
+
 const App = () => {
   return (
     <Router>
@@ -109,6 +132,38 @@ const App = () => {
                         <Route path="feedback" element={<Feedback102 />} />
                       </Routes>
                     </MF10Outlet>
+                  }
+                  />
+
+                  <Route path="ParallexCircuit10/*" element={
+                    <PC10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<Theory103 />} />
+                        <Route path="animation" element={<Animation103 />} />
+                        <Route path="procedure" element={<Procedure103 />} />
+                        <Route path="simulator" element={<Simulator103 />} />
+                        <Route path="video" element={<Video103 />} />
+                        <Route path="viva" element={<VivaVoice103 />} />
+                        <Route path="resources" element={<Resources103 />} />
+                        <Route path="feedback" element={<Feedback103 />} />
+                      </Routes>
+                    </PC10Outlet>
+                  }
+                  />
+
+                  <Route path="RefractionByGlassSlab10/*" element={
+                    <RBGS10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<Theory104 />} />
+                        <Route path="animation" element={<Animation104 />} />
+                        <Route path="procedure" element={<Procedure104 />} />
+                        <Route path="simulator" element={<Simulator104 />} />
+                        <Route path="video" element={<Video104 />} />
+                        <Route path="viva" element={<VivaVoice104 />} />
+                        <Route path="resources" element={<Resources104 />} />
+                        <Route path="feedback" element={<Feedback104 />} />
+                      </Routes>
+                    </RBGS10Outlet>
                   }
                   />
                 </Routes>
