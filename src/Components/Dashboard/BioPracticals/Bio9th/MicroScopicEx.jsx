@@ -1,5 +1,6 @@
 import React from 'react'
-import MicroScopicExImg from "../../../../assets/bio/bio9th/2.png"
+// import MicroScopicExImg from "../../../../assets/bio/bio9th/2.png"
+import MicroScopicExImg from "../../../../assets/bio/Bio9th/2.png"
 import { NavLink } from 'react-router-dom'
 
 
@@ -10,7 +11,7 @@ const MicroScopicEx = () => {
             <div className='w-64 h-64 bg-overviewWhite border-primaryGradient border-2 rounded-xl relative'>
                 <div className="p-4">
                     <img src={MicroScopicExImg} alt="" className='rounded-md' />
-                    {/* <p className="font-semibold text-base text-dark50 mt-2">Microscopic identification of cellular components (cell wall, cell membrane, cytoplasm, nucleus, and chloroplast) in Aloe vera.</p> */}
+                    <p className="font-semibold text-base text-dark50 mt-2">Microscopic identification of cellular components (cell wall, cell membrane, cytoplasm, nucleus, and chloroplast) in Aloe vera.</p>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" className='absolute bottom-0 right-0'>
                     <rect width="32" height="32" rx="8" fill="url(#paint0_linear_70_3352)" />

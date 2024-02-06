@@ -276,7 +276,7 @@ const PhyPracticals = () => {
                     </Accordion.Panel>
                 </Accordion>
 
-                <Accordion className=' m-auto outline-none border-none mb-4' >
+                {/* <Accordion className=' m-auto outline-none border-none mb-4' >
                     <Accordion.Panel>
                         <Accordion.Title className='bg-red-300 outline-none h-14 rounded-t-lg text-overviewWhite' style={{
                             background: 'linear-gradient(135deg, #0072FF 0%, #00C6FF 100%)',
@@ -293,7 +293,7 @@ const PhyPracticals = () => {
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>
-                </Accordion>
+                </Accordion> */}
 
 
             </div>
