@@ -1,5 +1,5 @@
 import React from 'react'
-import PlasmolysisImg from "../../../../assets/bio/bio9th/3.png"
+import PlasmolysisImg from "../../../../assets/bio/bio9th/Plasmolysis.png"
 import { NavLink } from 'react-router-dom'
 
 const Plasmolysis = () => {

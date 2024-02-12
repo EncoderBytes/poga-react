@@ -1,5 +1,5 @@
 import React from 'react'
-import NaOHImg from "../../../../assets/chem/chem10/5.png"
+import NaOHImg from "../../../../assets/chem/chem10/NaOH.png"
 import { NavLink } from 'react-router-dom'
 
 const NaOH = () => {

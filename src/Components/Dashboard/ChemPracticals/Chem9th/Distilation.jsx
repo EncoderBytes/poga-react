@@ -1,5 +1,5 @@
 import React from 'react'
-import DistilationImg from "../../../../assets/chem/chem9/1.png"
+import DistilationImg from "../../../../assets/chem/chem9/Distilation.png"
 import { NavLink } from 'react-router-dom'
 
 const Distilation = () => {

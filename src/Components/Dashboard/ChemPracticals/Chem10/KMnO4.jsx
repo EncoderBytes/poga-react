@@ -1,5 +1,5 @@
 import React from 'react'
-import KetonesImg from "../../../../assets/chem/chem10/6.png"
+import KetonesImg from "../../../../assets/chem/chem10/KMnO4.png"
 import { NavLink } from 'react-router-dom'
 
 const KMnO4 = () => {

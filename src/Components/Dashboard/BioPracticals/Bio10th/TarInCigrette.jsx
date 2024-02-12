@@ -1,5 +1,5 @@
 import React from 'react'
-import TarInCigretteImg from "../../../../assets/bio/bio10th/2.png"
+import TarInCigretteImg from "../../../../assets/bio/bio10th/TarInCigrette.png"
 import { NavLink } from 'react-router-dom'
 
 const TarInCigrette = () => {

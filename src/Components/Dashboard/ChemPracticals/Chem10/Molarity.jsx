@@ -1,5 +1,5 @@
 import React from 'react'
-import MolarityImg from "../../../../assets/chem/chem10/2.png"
+import MolarityImg from "../../../../assets/chem/chem10/Molarity.png"
 import { NavLink } from 'react-router-dom'
 
 const Molarity = () => {

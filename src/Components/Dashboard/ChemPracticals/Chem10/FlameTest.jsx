@@ -1,5 +1,5 @@
 import React from 'react'
-import FlameTestImg from "../../../../assets/chem/chem10/1.png"
+import FlameTestImg from "../../../../assets/chem/chem10/FlameTest.png"
 import { NavLink } from 'react-router-dom'
 
 const FlameTest = () => {

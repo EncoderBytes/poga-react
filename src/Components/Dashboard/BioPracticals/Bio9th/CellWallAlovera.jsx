@@ -1,11 +1,11 @@
 import React from 'react'
-import alovera from "../../../../assets/bio/bio9th/1.png"
+import alovera from "../../../../assets/bio/bio9th/aloveraImg.png"
 import { NavLink } from 'react-router-dom'
 
 const CellWallAlovera = () => {
     return (
         <NavLink to='/Dashmain/phypracticals/EmfExp'>
-        {/* <   NavLink to='/Dashmain/'> */}
+            {/* <   NavLink to='/Dashmain/'> */}
             <div className='w-64 h-64 bg-overviewWhite border-primaryGradient border-2 rounded-xl relative'>
                 <div className="p-4">
                     <img src={alovera} alt="" className='rounded-md' />

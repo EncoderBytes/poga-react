@@ -1,5 +1,5 @@
 import React from 'react'
-import CopperSulphateImg from "../../../../assets/chem/chem9/4.png"
+import CopperSulphateImg from "../../../../assets/chem/chem9/CopperSulphate.png"
 import { NavLink } from 'react-router-dom'
 
 const CopperSulphate = () => {

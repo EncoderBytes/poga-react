@@ -1,5 +1,5 @@
 import React from 'react'
-import KidneyImg from "../../../../assets/bio/bio10th/3.png"
+import KidneyImg from "../../../../assets/bio/bio10th/Kidney.png"
 import { NavLink } from 'react-router-dom'
 
 const Kidney = () => {

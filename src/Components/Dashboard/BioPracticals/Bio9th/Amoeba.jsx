@@ -1,5 +1,5 @@
 import React from 'react'
-import AmoebaImg from "../../../../assets/bio/bio9th/4.png"
+import AmoebaImg from "../../../../assets/bio/bio9th/Amoeba.png"
 import { NavLink } from 'react-router-dom'
 
 const Amoeba = () => {

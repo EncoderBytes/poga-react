@@ -1,6 +1,6 @@
 import React from 'react'
 // import MicroScopicExImg from "../../../../assets/bio/bio9th/2.png"
-import MicroScopicExImg from "../../../../assets/bio/Bio9th/2.png"
+import MicroScopicExImg from "../../../../assets/bio/Bio9th/MicroScopic.png"
 import { NavLink } from 'react-router-dom'
 
 

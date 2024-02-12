@@ -1,5 +1,5 @@
 import React from 'react'
-import AmmoniumChlorideImg from "../../../../assets/chem/chem9/5.png"
+import AmmoniumChlorideImg from "../../../../assets/chem/chem9/AmmoniumChloride.png"
 import { NavLink } from 'react-router-dom'
 
 const AmmoniumChloride = () => {

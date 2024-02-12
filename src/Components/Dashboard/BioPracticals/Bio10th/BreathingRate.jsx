@@ -1,5 +1,5 @@
 import React from 'react'
-import BreathingRateImg from "../../../../assets/bio/bio10th/1.png"
+import BreathingRateImg from "../../../../assets/bio/bio10th/BreathingRate.png"
 import { NavLink } from 'react-router-dom'
 
 const BreathingRate = () => {
