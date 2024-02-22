@@ -65,6 +65,39 @@ import Resources104 from './Components/Dashboard/PhyPracticals/Phy10thexplained/
 import Feedback104 from './Components/Dashboard/PhyPracticals/Phy10thexplained/RefractionByGlassSlab10/NavPages/Feedback104.jsx'
 import Video104 from './Components/Dashboard/PhyPracticals/Phy10thexplained/RefractionByGlassSlab10/NavPages/Video104.jsx'
 
+// 105
+import SC10Outlet from './Components/Dashboard/PhyPracticals/Phy10thexplained/SeriesCircuit10/SeriesCircuit10Outlet.jsx';
+import Theory105 from './Components/Dashboard/PhyPracticals/Phy10thexplained/SeriesCircuit10/NavPages/TheoryPhy105.jsx';
+import Animation105 from './Components/Dashboard/PhyPracticals/Phy10thexplained/SeriesCircuit10/NavPages/Animation105.jsx';
+import Procedure105 from './Components/Dashboard/PhyPracticals/Phy10thexplained/SeriesCircuit10/NavPages/Procedure105.jsx';
+import Simulator105 from './Components/Dashboard/PhyPracticals/Phy10thexplained/SeriesCircuit10/NavPages/Simulator105.jsx';
+import VivaVoice105 from './Components/Dashboard/PhyPracticals/Phy10thexplained/SeriesCircuit10/NavPages/VivaVoice105.jsx';
+import Resources105 from './Components/Dashboard/PhyPracticals/Phy10thexplained/SeriesCircuit10/NavPages/Resources105.jsx';
+import Feedback105 from './Components/Dashboard/PhyPracticals/Phy10thexplained/SeriesCircuit10/NavPages/Feedback105.jsx';
+import Video105 from './Components/Dashboard/PhyPracticals/Phy10thexplained/SeriesCircuit10/NavPages/Video105.jsx';
+
+// 106
+import VOL10Outlet from "./Components/Dashboard/PhyPracticals/Phy10thexplained/VerifyOhmLaw10/VerifyOhmLaw10Outlet.jsx"
+import Theory106 from './Components/Dashboard/PhyPracticals/Phy10thexplained/VerifyOhmLaw10/NavPages/TheoryPhy106.jsx';
+import Animation106 from './Components/Dashboard/PhyPracticals/Phy10thexplained/VerifyOhmLaw10/NavPages/Animation106.jsx';
+import Procedure106 from './Components/Dashboard/PhyPracticals/Phy10thexplained/VerifyOhmLaw10/NavPages/Procedure106.jsx';
+import Simulator106 from './Components/Dashboard/PhyPracticals/Phy10thexplained/VerifyOhmLaw10/NavPages/Simulator106.jsx';
+import VivaVoice106 from './Components/Dashboard/PhyPracticals/Phy10thexplained/VerifyOhmLaw10/NavPages/VivaVoice106.jsx';
+import Resources106 from './Components/Dashboard/PhyPracticals/Phy10thexplained/VerifyOhmLaw10/NavPages/Resources106.jsx';
+import Feedback106 from './Components/Dashboard/PhyPracticals/Phy10thexplained/VerifyOhmLaw10/NavPages/Feedback106.jsx';
+import Video106 from './Components/Dashboard/PhyPracticals/Phy10thexplained/VerifyOhmLaw10/NavPages/Video106.jsx';
+
+// 9th
+// 101
+import VC9Outlet from "./Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/VernierCaliper9Outlet.jsx"
+import Theory91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/TheoryPhy91.jsx'
+import Animation91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/Animation91.jsx';
+import Procedure91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/Procedure91.jsx';
+import Simulator91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/Simulator91.jsx';
+import VivaVoice91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/VivaVoice91.jsx';
+import Resources91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/Resources91.jsx';
+import Feedback91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/Feedback91.jsx';
+import Video91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/Video91.jsx';
 
 const App = () => {
   return (
@@ -83,6 +116,7 @@ const App = () => {
               <Route path="phypracticals/*" element={
                 <Routes>
                   <Route index element={<PhyPracticals />} />
+                  {/* 12 */}
                   <Route path="OhmExp12/*" element={
                     <OE12O>
                       <Routes>
@@ -103,6 +137,7 @@ const App = () => {
                   <Route path="PotentiometerExp12" element={<PotentiometerExp12 />} />
                   <Route path="OhmExp11" element={<OhmExp11 />} />
 
+                  {/* 10 */}
                   <Route path="FocalLengthConvex10/*" element={
                     <FLC10Outlet>
                       <Routes>
@@ -116,8 +151,7 @@ const App = () => {
                         <Route path="feedback" element={<Feedback101 />} />
                       </Routes>
                     </FLC10Outlet>
-                  }
-                  />
+                  } />
 
                   <Route path="MagnetField10/*" element={
                     <MF10Outlet>
@@ -132,8 +166,7 @@ const App = () => {
                         <Route path="feedback" element={<Feedback102 />} />
                       </Routes>
                     </MF10Outlet>
-                  }
-                  />
+                  } />
 
                   <Route path="ParallexCircuit10/*" element={
                     <PC10Outlet>
@@ -148,8 +181,7 @@ const App = () => {
                         <Route path="feedback" element={<Feedback103 />} />
                       </Routes>
                     </PC10Outlet>
-                  }
-                  />
+                  } />
 
                   <Route path="RefractionByGlassSlab10/*" element={
                     <RBGS10Outlet>
@@ -164,8 +196,54 @@ const App = () => {
                         <Route path="feedback" element={<Feedback104 />} />
                       </Routes>
                     </RBGS10Outlet>
-                  }
-                  />
+                  } />
+
+                  <Route path="SeriesCircuit10/*" element={
+                    <SC10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<Theory105 />} />
+                        <Route path="animation" element={<Animation105 />} />
+                        <Route path="procedure" element={<Procedure105 />} />
+                        <Route path="simulator" element={<Simulator105 />} />
+                        <Route path="video" element={<Video105 />} />
+                        <Route path="viva" element={<VivaVoice105 />} />
+                        <Route path="resources" element={<Resources105 />} />
+                        <Route path="feedback" element={<Feedback105 />} />
+                      </Routes>
+                    </SC10Outlet>
+                  } />
+
+                  <Route path="VerifyOhmLaw10/*" element={
+                    <VOL10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<Theory106 />} />
+                        <Route path="animation" element={<Animation106 />} />
+                        <Route path="procedure" element={<Procedure106 />} />
+                        <Route path="simulator" element={<Simulator106 />} />
+                        <Route path="video" element={<Video106 />} />
+                        <Route path="viva" element={<VivaVoice106 />} />
+                        <Route path="resources" element={<Resources106 />} />
+                        <Route path="feedback" element={<Feedback106 />} />
+                      </Routes>
+                    </VOL10Outlet>
+                  } />
+
+                  {/* 9 */}
+
+                  <Route path="VernierCaliper9/*" element={
+                    <VC9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<Theory91 />} />
+                        <Route path="animation" element={<Animation91 />} />
+                        <Route path="procedure" element={<Procedure91 />} />
+                        <Route path="simulator" element={<Simulator91 />} />
+                        <Route path="video" element={<Video91 />} />
+                        <Route path="viva" element={<VivaVoice91 />} />
+                        <Route path="resources" element={<Resources91 />} />
+                        <Route path="feedback" element={<Feedback91 />} />
+                      </Routes>
+                    </VC9Outlet>
+                  } />
                 </Routes>
               } />
 

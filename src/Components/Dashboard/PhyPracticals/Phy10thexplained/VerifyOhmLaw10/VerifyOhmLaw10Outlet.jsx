@@ -13,7 +13,7 @@ const MagnetField10Outlet = ({ children }) => {
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
-                        }}>TRACE THE MAGNETIC FIELD USING A BAR MAGNET</div>
+                        }}>VERIFY OHM’S LAW (USING WIRE AS A CONDUCTOR)</div>
                     </div>
 
                     <div className="right p-5">

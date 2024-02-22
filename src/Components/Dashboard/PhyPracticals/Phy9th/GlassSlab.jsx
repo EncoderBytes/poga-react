@@ -2,7 +2,7 @@ import React from 'react'
 import glassSlab from "../../../../assets/glassSlab.png"
 import { NavLink } from 'react-router-dom'
 
-const OhmsLaw = () => {
+const GlassSlab = () => {
     return (
         <NavLink to='/Dashmain/phypracticals/OhmExp11'>
             <div className='w-64 h-64 bg-overviewWhite border-primaryGradient border-2 rounded-xl relative'>
@@ -28,4 +28,4 @@ const OhmsLaw = () => {
     )
 }
 
-export default OhmsLaw
+export default GlassSlab

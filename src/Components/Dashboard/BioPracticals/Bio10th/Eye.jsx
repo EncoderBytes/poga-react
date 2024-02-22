@@ -1,5 +1,5 @@
 import React from 'react'
-import EyeImg from "../../../../assets/bio/bio10th/Eye.png"
+import EyeImg from "../../../../assets/bio/Bio10th/Eye.png"
 import { NavLink } from 'react-router-dom'
 
 const Eye = () => {

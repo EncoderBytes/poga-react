@@ -2,14 +2,14 @@ import React from 'react'
 import vernier from "../../../../assets/vernier.png"
 import { NavLink } from 'react-router-dom'
 
-const OhmsLaw = () => {
+const VernierCaliper = () => {
     return (
-        <NavLink to='/Dashmain/phypracticals/OhmExp11'>
+        <NavLink to='/Dashmain/phypracticals/VernierCaliper9/theory'>
             <div className='w-64 h-64 bg-overviewWhite border-primaryGradient border-2 rounded-xl relative'>
                 <div className="p-4">
                     <img src={vernier} alt="" className='rounded-md' />
                     <p className="font-semibold text-base text-dark50 mt-2">
-                    Vernier calipers measure cylinder diameter for area.
+                        Vernier calipers measure cylinder diameter for area.
                     </p>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" className='absolute bottom-0 right-0'>
@@ -28,4 +28,4 @@ const OhmsLaw = () => {
     )
 }
 
-export default OhmsLaw
+export default VernierCaliper

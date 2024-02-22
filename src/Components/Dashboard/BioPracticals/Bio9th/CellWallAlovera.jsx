@@ -1,5 +1,5 @@
 import React from 'react'
-import alovera from "../../../../assets/bio/bio9th/aloveraImg.png"
+import alovera from "../../../../assets/bio/Bio9th/aloveraImg.png"
 import { NavLink } from 'react-router-dom'
 
 const CellWallAlovera = () => {

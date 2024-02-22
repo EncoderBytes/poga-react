@@ -5,7 +5,6 @@ import ellipse15 from "./assets/Ellipse15.svg"
 const DashboardLayout = ({ children }) => {
   return (
     <div className='flex'>
-
       {/* Verticle Blue Bar */}
       <div className="verticle w-80 flex flex-col justify-start items-center z-20 pt-20" style={{
         background: 'linear-gradient(135deg, #0072FF 0%, #00C6FF 100%)',

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Feedback102 = () => {
+const Feedback104 = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -62,4 +62,4 @@ const Feedback102 = () => {
     )
 }
 
-export default Feedback102
+export default Feedback104
