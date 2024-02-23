@@ -88,7 +88,7 @@ import Feedback106 from './Components/Dashboard/PhyPracticals/Phy10thexplained/V
 import Video106 from './Components/Dashboard/PhyPracticals/Phy10thexplained/VerifyOhmLaw10/NavPages/Video106.jsx';
 
 // 9th
-// 101
+// 91
 import VC9Outlet from "./Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/VernierCaliper9Outlet.jsx"
 import Theory91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/TheoryPhy91.jsx'
 import Animation91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/Animation91.jsx';
@@ -98,6 +98,51 @@ import VivaVoice91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/Ve
 import Resources91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/Resources91.jsx';
 import Feedback91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/Feedback91.jsx';
 import Video91 from './Components/Dashboard/PhyPracticals/Phy9thexplained/VernierCaliper9/NavPages/Video91.jsx';
+
+// 95
+import PO9Outlet from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumOne9/PendulumOne9Outlet.jsx'
+import Theory95 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumOne9/NavPages/TheoryPhy95.jsx'
+import Animation95 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumOne9/NavPages/Animation95.jsx';
+import Procedure95 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumOne9/NavPages/Procedure95.jsx';
+import Simulator95 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumOne9/NavPages/Simulator95.jsx';
+import VivaVoice95 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumOne9/NavPages/VivaVoice95.jsx';
+import Resources95 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumOne9/NavPages/Resources95.jsx';
+import Feedback95 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumOne9/NavPages/Feedback95.jsx';
+import Video95 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumOne9/NavPages/Video95.jsx';
+
+// 92
+import PT9Outlet from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumTwo9/PendulumTwo9Outlet.jsx'
+import Theory92 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumTwo9/NavPages/TheoryPhy92.jsx'
+import Animation92 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumTwo9/NavPages/Animation92.jsx';
+import Procedure92 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumTwo9/NavPages/Procedure92.jsx';
+import Simulator92 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumTwo9/NavPages/Simulator92.jsx';
+import VivaVoice92 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumTwo9/NavPages/VivaVoice92.jsx';
+import Resources92 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumTwo9/NavPages/Resources92.jsx';
+import Feedback92 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumTwo9/NavPages/Feedback92.jsx';
+import Video92 from './Components/Dashboard/PhyPracticals/Phy9thexplained/PendulumTwo9/NavPages/Video92.jsx';
+
+// 93
+import GS9Outlet from './Components/Dashboard/PhyPracticals/Phy9thexplained/GlassSlab9/GlassSlab9Outlet.jsx'
+import Theory93 from './Components/Dashboard/PhyPracticals/Phy9thexplained/GlassSlab9/NavPages/TheoryPhy93.jsx'
+import Animation93 from './Components/Dashboard/PhyPracticals/Phy9thexplained/GlassSlab9/NavPages/Animation93.jsx';
+import Procedure93 from './Components/Dashboard/PhyPracticals/Phy9thexplained/GlassSlab9/NavPages/Procedure93.jsx';
+import Simulator93 from './Components/Dashboard/PhyPracticals/Phy9thexplained/GlassSlab9/NavPages/Simulator93.jsx';
+import VivaVoice93 from './Components/Dashboard/PhyPracticals/Phy9thexplained/GlassSlab9/NavPages/VivaVoice93.jsx';
+import Resources93 from './Components/Dashboard/PhyPracticals/Phy9thexplained/GlassSlab9/NavPages/Resources93.jsx';
+import Feedback93 from './Components/Dashboard/PhyPracticals/Phy9thexplained/GlassSlab9/NavPages/Feedback93.jsx';
+import Video93 from './Components/Dashboard/PhyPracticals/Phy9thexplained/GlassSlab9/NavPages/Video93.jsx';
+
+// 94
+import MR9Outlet from './Components/Dashboard/PhyPracticals/Phy9thexplained/MeterRod9/MeterRod9Outlet.jsx'
+import Theory94 from './Components/Dashboard/PhyPracticals/Phy9thexplained/MeterRod9/NavPages/TheoryPhy94.jsx'
+import Animation94 from './Components/Dashboard/PhyPracticals/Phy9thexplained/MeterRod9/NavPages/Animation94.jsx';
+import Procedure94 from './Components/Dashboard/PhyPracticals/Phy9thexplained/MeterRod9/NavPages/Procedure94.jsx';
+import Simulator94 from './Components/Dashboard/PhyPracticals/Phy9thexplained/MeterRod9/NavPages/Simulator94.jsx';
+import VivaVoice94 from './Components/Dashboard/PhyPracticals/Phy9thexplained/MeterRod9/NavPages/VivaVoice94.jsx';
+import Resources94 from './Components/Dashboard/PhyPracticals/Phy9thexplained/MeterRod9/NavPages/Resources94.jsx';
+import Feedback94 from './Components/Dashboard/PhyPracticals/Phy9thexplained/MeterRod9/NavPages/Feedback94.jsx';
+import Video94 from './Components/Dashboard/PhyPracticals/Phy9thexplained/MeterRod9/NavPages/Video94.jsx';
+
 
 const App = () => {
   return (
@@ -243,6 +288,66 @@ const App = () => {
                         <Route path="feedback" element={<Feedback91 />} />
                       </Routes>
                     </VC9Outlet>
+                  } />
+
+                  <Route path="PendulumOne9/*" element={
+                    <PO9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<Theory95 />} />
+                        <Route path="animation" element={<Animation95 />} />
+                        <Route path="procedure" element={<Procedure95 />} />
+                        <Route path="simulator" element={<Simulator95 />} />
+                        <Route path="video" element={<Video95 />} />
+                        <Route path="viva" element={<VivaVoice95 />} />
+                        <Route path="resources" element={<Resources95 />} />
+                        <Route path="feedback" element={<Feedback95 />} />
+                      </Routes>
+                    </PO9Outlet>
+                  } />
+
+                  <Route path="PendulumTwo9/*" element={
+                    <PT9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<Theory92 />} />
+                        <Route path="animation" element={<Animation92 />} />
+                        <Route path="procedure" element={<Procedure92 />} />
+                        <Route path="simulator" element={<Simulator92 />} />
+                        <Route path="video" element={<Video92 />} />
+                        <Route path="viva" element={<VivaVoice92 />} />
+                        <Route path="resources" element={<Resources92 />} />
+                        <Route path="feedback" element={<Feedback92 />} />
+                      </Routes>
+                    </PT9Outlet>
+                  } />
+
+                  <Route path="GlassSlab9/*" element={
+                    <GS9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<Theory93 />} />
+                        <Route path="animation" element={<Animation93 />} />
+                        <Route path="procedure" element={<Procedure93 />} />
+                        <Route path="simulator" element={<Simulator93 />} />
+                        <Route path="video" element={<Video93 />} />
+                        <Route path="viva" element={<VivaVoice93 />} />
+                        <Route path="resources" element={<Resources93 />} />
+                        <Route path="feedback" element={<Feedback93 />} />
+                      </Routes>
+                    </GS9Outlet>
+                  } />
+
+                  <Route path="MeterRod9/*" element={
+                    <MR9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<Theory94 />} />
+                        <Route path="animation" element={<Animation94 />} />
+                        <Route path="procedure" element={<Procedure94 />} />
+                        <Route path="simulator" element={<Simulator94 />} />
+                        <Route path="video" element={<Video94 />} />
+                        <Route path="viva" element={<VivaVoice94 />} />
+                        <Route path="resources" element={<Resources94 />} />
+                        <Route path="feedback" element={<Feedback94 />} />
+                      </Routes>
+                    </MR9Outlet>
                   } />
                 </Routes>
               } />

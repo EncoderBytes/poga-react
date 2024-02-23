@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom'
 
 const OhmsLaw = () => {
     return (
-        <NavLink to='/Dashmain/phypracticals/OhmExp11'>
+        <NavLink to='/Dashmain/phypracticals/PendulumOne9/theory'>
             <div className='w-64 h-64 bg-overviewWhite border-primaryGradient border-2 rounded-xl relative'>
                 <div className="p-4">
                     <img src={pendulum1} alt="" className='rounded-md' />
                     <p className="font-semibold text-base text-dark50 mt-2">
-                    Explore how simple pendulum length affects period to calculate 'g'.
+                        Explore how simple pendulum length affects period to calculate 'g'.
                     </p>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" className='absolute bottom-0 right-0'>
