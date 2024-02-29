@@ -1,37 +1,43 @@
 import React from 'react'
+import img from "../../../../../../assets/bio/Bio9th/Picture3.jpg"
 
 const BioProcedure92 = () => {
   return (
     <>
       <div className='w-4/5 pl-4 pb-3'>
         <div className="aim mb-3 mt-8">
-          <p className="text-dark font-semibold text-xl mb-1">BioProcedure92</p>
-          <ol className="text-dark50 font-normal text-base pl-5 list-decimal">
-            <li>Find the mass of each bob with the help of laboratory balance.</li>
-            <li>Measure the diameter of the hook of the bob with the help of a Vernier caliper and calculate the radius of the bob (i.e. D/2)</li>
-            <li>Take an inextensible string and tie its one end with the hook of the bob.</li>
-            <li>Place the other end of the string between the split corks.</li>
-            <li>Clamp the cork on an iron stand. The bob of a pendulum must be a few cm above the ground.</li>
-            <li>Measure the length of the string including the hook. The total length of the pendulum will be l=l+r.</li>
-            <li>Draw two mutually perpendicular lines with the help of the chalk on the floor mean position o, point A and point B shows extreme position A and B.</li>
-            <li>Then release the bob gently. The oscillation of the bob should be along a straight line.</li>
-            <li>Start the stopwatch when the bob just passes point o and at the same time start counting the oscillations from zero. Note the time for 2D complete oscillation.</li>
-            <li>Repeat step 8 to obtain another value of time t2 and find the mean t, t=(t1+t2)/2.</li>
-            <li>Calculate the mean time period for one oscillation as, T=t/10.</li>
-            <li>Calculate the time period for each bob and record them. Results will show that the time period for each bob remains the same.</li>
-          </ol>
-        </div>
+          <p className="text-dark font-semibold text-2xl mb-1">To Prepare Stained Temporary Mount of Onion Peel</p>
+          <p className="text-dark font-semibold text-xl mb-1">Materials Required</p>
 
-        <div className="theory mb-8">
-          <p className="text-dark font-semibold text-xl mb-1">PRECAUTIONS</p>
+          <img src={img} alt="" className='my-5' />
+
+          <p className="text-dark font-semibold text-xl mb-1">Real Lab Procedure</p>
           <ol className="text-dark50 font-normal text-base pl-5 list-decimal">
-            <li>The thread should be very light and strong.</li>
-            <li>The point of suspension should be reasonably rigid.</li>
-            <li>The pendulum should oscillate in the vertical plane without any spin motion.</li>
-            <li>The floor of the laboratory should not have vibration, which may cause a deviation from the regular oscillation of the pendulum.</li>
-            <li>The length of the pendulum should be as large as possible in the given situation.’</li>
-            <li>Determination of time for 20 or more oscillations should be carefully taken and repeated at least three times.</li>
-            <li>There must not be a strong wind blowing during the experiment.</li>
+            <li>Peel off a leaf from half a piece of onion and using the forceps, pull out a piece of transparent onion peel (epidermis) from the leaf.</li>
+            <li>Put the epidermis in the Beaker containing distilled water for 1 minute.</li>
+            <li>Take a few drops of Methylene Blue in a dropper and pour 2-3 drops at the center of a dry glass slide.</li>
+            <li>Using the brush, place the peel onto the slide containing Methylene Blue.</li>
+            <li>Take a cover slip and place it gently on the peel with the aid of a needle.</li>
+            <li>Remove the extra Methylene Blue using a piece of blotting paper.</li>
+            <li>Place this glass side on the stage of the compound microscope and view it.</li>
+          </ol>
+
+          <p className="text-dark font-semibold text-xl mb-1">Observations</p>
+          <ol className="text-dark50 font-normal text-base pl-5 list-decimal">
+            <li>There are a large number of regularly shaped cells lying side by side and each cell has a distinct cell wall.</li>
+            <li>A distinct nucleus is present on the periphery of each cell.</li>
+            <li>Lightly stained cytoplasm is observed in each cell.</li>
+            <li>A large vacuole is present at the centre of each cell, and is surrounded by the cytoplasm.</li>
+          </ol>
+
+          <p className="text-dark font-semibold text-xl mb-1">Conclusion</p>
+          <p className="text-dark50 font-normal text-base pl-3">As cell walls and large vacuoles are clearly observed in all the cells, the cells placed for observation are plant cells.</p>
+
+          <p className="text-dark font-semibold text-xl mb-1">Precautions</p>
+          <ol className="text-dark50 font-normal text-base pl-5 list-decimal">
+            <li>Use a brush to transfer the peel from one apparatus to another.</li>
+            <li>Staining of peel should neither be too dark, nor too light.</li>
+            <li>Extra Methylene Blue stain should be removed using blotting paper.</li>
           </ol>
         </div>
       </div >
