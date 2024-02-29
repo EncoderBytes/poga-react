@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 
 const MicroScopicEx = () => {
     return (
-        <NavLink to='/Dashmain/phypracticals/EmfExp'>
+        <NavLink to='/Dashmain/biopracticals/MicroScopicEx9/theory'>
             {/* <   NavLink to='/Dashmain/'> */}
             <div className='w-64 h-64 bg-overviewWhite border-primaryGradient border-2 rounded-xl relative'>
                 <div className="p-4">

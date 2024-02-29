@@ -266,11 +266,11 @@ const PhyPracticals = () => {
                         </Accordion.Title>
                         <Accordion.Content className=' bg-overviewWhite rounded-b-lg'>
                             <div className="flex gap-4 my-1 flex-wrap">
-                                <BreathingRate />
+                                {/* <BreathingRate />
                                 <TarInCigrette />
                                 <Kidney />
                                 <Eye />
-                                <FissionInAmoeba />
+                                <FissionInAmoeba /> */}
                             </div>
                         </Accordion.Content>
                     </Accordion.Panel>

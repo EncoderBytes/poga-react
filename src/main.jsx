@@ -143,6 +143,27 @@ import Resources94 from './Components/Dashboard/PhyPracticals/Phy9thexplained/Me
 import Feedback94 from './Components/Dashboard/PhyPracticals/Phy9thexplained/MeterRod9/NavPages/Feedback94.jsx';
 import Video94 from './Components/Dashboard/PhyPracticals/Phy9thexplained/MeterRod9/NavPages/Video94.jsx';
 
+// Bio 9 1
+import CWA9Outlet from './Components/Dashboard/BioPracticals/Bio9thexplained/CellWallAlovera9/CellWallAlovera9Outlet.jsx'
+import BioTheory91 from './Components/Dashboard/BioPracticals/Bio9thexplained/CellWallAlovera9/NavPages/BioTheory91.jsx'
+import BioAnimation91 from './Components/Dashboard/BioPracticals/Bio9thexplained/CellWallAlovera9/NavPages/BioAnimation91.jsx';
+import BioProcedure91 from './Components/Dashboard/BioPracticals/Bio9thexplained/CellWallAlovera9/NavPages/BioProcedure91.jsx';
+import BioSimulator91 from './Components/Dashboard/BioPracticals/Bio9thexplained/CellWallAlovera9/NavPages/BioSimulator91.jsx';
+import BioVivaVoice91 from './Components/Dashboard/BioPracticals/Bio9thexplained/CellWallAlovera9/NavPages/BioVivaVoice91.jsx';
+import BioResources91 from './Components/Dashboard/BioPracticals/Bio9thexplained/CellWallAlovera9/NavPages/BioResources91.jsx';
+import BioFeedback91 from './Components/Dashboard/BioPracticals/Bio9thexplained/CellWallAlovera9/NavPages/BioFeedback91.jsx';
+import BioVideo91 from './Components/Dashboard/BioPracticals/Bio9thexplained/CellWallAlovera9/NavPages/BioVideo91.jsx';
+
+// 9 2
+import MSE99Outlet from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/MicroScopicEx9Outlet.jsx'
+import BioTheory92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioTheory92.jsx'
+import BioAnimation92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioAnimation92.jsx';
+import BioProcedure92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioProcedure92.jsx';
+import BioSimulator92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioSimulator92.jsx';
+import BioVivaVoice92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioVivaVoice92.jsx';
+import BioResources92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioResources92.jsx';
+import BioFeedback92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioFeedback92.jsx';
+import BioVideo92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioVideo92.jsx';
 
 const App = () => {
   return (
@@ -176,8 +197,7 @@ const App = () => {
                         <Route path="feedback" element={<Feedback />} />
                       </Routes>
                     </OE12O>
-                  }
-                  />
+                  } />
                   <Route path="EmfExp12" element={<EmfExp12 />} />
                   <Route path="PotentiometerExp12" element={<PotentiometerExp12 />} />
                   <Route path="OhmExp11" element={<OhmExp11 />} />
@@ -353,7 +373,42 @@ const App = () => {
               } />
 
               {/* BIOLOGY */}
-              <Route path="biopracticals" element={<BioPracticals />} />
+              <Route path="biopracticals/*" element={
+                <Routes>
+                  <Route index element={<BioPracticals />} />
+
+                  <Route path="CellWallAlovera9/*" element={
+                    <CWA9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<BioTheory91 />} />
+                        <Route path="animation" element={<BioAnimation91 />} />
+                        <Route path="procedure" element={<BioProcedure91 />} />
+                        <Route path="simulator" element={<BioSimulator91 />} />
+                        <Route path="video" element={<BioVideo91 />} />
+                        <Route path="viva" element={<BioVivaVoice91 />} />
+                        <Route path="resources" element={<BioResources91 />} />
+                        <Route path="feedback" element={<BioFeedback91 />} />
+                      </Routes>
+                    </CWA9Outlet>
+                  } />
+
+                  {/* 9 2 */}
+                  <Route path="MicroScopicEx9/*" element={
+                    <MSE99Outlet>
+                      <Routes>
+                        <Route path="theory" element={<BioTheory92 />} />
+                        <Route path="animation" element={<BioAnimation92 />} />
+                        <Route path="procedure" element={<BioProcedure92 />} />
+                        <Route path="simulator" element={<BioSimulator92 />} />
+                        <Route path="video" element={<BioVideo92 />} />
+                        <Route path="viva" element={<BioVivaVoice92 />} />
+                        <Route path="resources" element={<BioResources92 />} />
+                        <Route path="feedback" element={<BioFeedback92 />} />
+                      </Routes>
+                    </MSE99Outlet>
+                  } />
+                </Routes>
+              } />
 
               {/* CHEMISTRY */}
               <Route path="chempracticals" element={<ChemPracticals />} />
