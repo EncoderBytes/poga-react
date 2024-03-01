@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from './Nav/Nav'
 import OhmImage from "../../../../../assets/ohm1.png"
 
-const PendulumTwo9Outlet = ({ children }) => {
+const Plasmolysis9Outlet = ({ children }) => {
     return (
         <div className="bg-dashmain py-5">
             <div className='w-11/12 m-auto '>
@@ -13,7 +13,7 @@ const PendulumTwo9Outlet = ({ children }) => {
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
-                        }}>EFFECT OF LENGTH OF SIMPLE PENDULUM ON ITS TIME PERIOD</div>
+                        }}>DETERMINATION OF THE EFFECT OF TONICITY ON PLASMOLYSIS AND DE-PLASMOLYSIS IN PLANT CELLS</div>
                     </div>
 
                     <div className="right p-5">
@@ -30,4 +30,4 @@ const PendulumTwo9Outlet = ({ children }) => {
     )
 }
 
-export default PendulumTwo9Outlet
+export default Plasmolysis9Outlet

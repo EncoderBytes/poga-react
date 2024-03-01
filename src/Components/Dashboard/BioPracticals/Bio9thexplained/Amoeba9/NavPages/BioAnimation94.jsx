@@ -2,7 +2,7 @@ import React from 'react'
 import rectangle10 from '../../../../../../assets/Rectangle10.png'
 import rectangle8 from '../../../../../../assets/Rectangle8.png'
 
-const Animation105 = () => {
+const BioAnimation94 = () => {
   return (
     // <div className="relative mr-auto pb-32 mt-5 pt-24 overflow-hidden">
     //   {/* Top Right SVG */}
@@ -45,8 +45,8 @@ const Animation105 = () => {
     //     </defs>
     //   </svg>
     // </div>
-    <p>jsi</p>
+    <p>BioAnimation94</p>
   )
 }
 
-export default Animation105
+export default BioAnimation94

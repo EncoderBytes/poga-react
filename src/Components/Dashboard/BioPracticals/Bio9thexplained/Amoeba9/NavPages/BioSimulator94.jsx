@@ -1,7 +1,7 @@
 import React from 'react'
 import ohmSimulator from "../../../../../../assets/ohmSimulator.png"
 
-const Simulator93 = () => {
+const BioSimulator94 = () => {
     return (
         <div>
             <p>kjdalk</p>
@@ -34,4 +34,4 @@ const Simulator93 = () => {
     )
 }
 
-export default Simulator93
+export default BioSimulator94

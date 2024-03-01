@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Feedback92 = () => {
+const BioFeedback93 = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -62,4 +62,4 @@ const Feedback92 = () => {
     )
 }
 
-export default Feedback92
+export default BioFeedback93

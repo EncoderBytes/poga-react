@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Video92 = () => {
+const BioVideo94 = () => {
     return (
         <div className="relative mr-auto pb-32 mt-5 pt-24 overflow-hidden">
             {/* Top Right SVG */}
@@ -15,7 +15,7 @@ const Video92 = () => {
             </svg>
 
             <div className="w-widthhh h-96 m-auto relative z-10 flex items-center justify-center">
-                <iframe className='rounded-xl' width="100%" height="420" src="https://www.youtube.com/embed/UMvHQ0CCIVo" title="EXPERIMENT 15.1: Trace the magnetic field using a bar magnet." frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe className='rounded-xl' width="100%" height="420" src="https://www.youtube.com/embed/qZ2hkMkgnQA" title="EXPERIMENT 15.1: Trace the magnetic field using a bar magnet." frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
 
             {/* Bottom Left SVG */}
@@ -32,4 +32,4 @@ const Video92 = () => {
     )
 }
 
-export default Video92
+export default BioVideo94

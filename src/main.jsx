@@ -155,7 +155,7 @@ import BioFeedback91 from './Components/Dashboard/BioPracticals/Bio9thexplained/
 import BioVideo91 from './Components/Dashboard/BioPracticals/Bio9thexplained/CellWallAlovera9/NavPages/BioVideo91.jsx';
 
 // 9 2
-import MSE99Outlet from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/MicroScopicEx9Outlet.jsx'
+import MSE9Outlet from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/MicroScopicEx9Outlet.jsx'
 import BioTheory92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioTheory92.jsx'
 import BioAnimation92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioAnimation92.jsx';
 import BioProcedure92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioProcedure92.jsx';
@@ -164,6 +164,28 @@ import BioVivaVoice92 from './Components/Dashboard/BioPracticals/Bio9thexplained
 import BioResources92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioResources92.jsx';
 import BioFeedback92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioFeedback92.jsx';
 import BioVideo92 from './Components/Dashboard/BioPracticals/Bio9thexplained/MicroScopicEx9/NavPages/BioVideo92.jsx';
+
+// 9 3
+import P9Outlet from './Components/Dashboard/BioPracticals/Bio9thexplained/Plasmolysis9/Plasmolysis9Outlet.jsx'
+import BioTheory93 from './Components/Dashboard/BioPracticals/Bio9thexplained/Plasmolysis9/NavPages/BioTheory93.jsx'
+import BioAnimation93 from './Components/Dashboard/BioPracticals/Bio9thexplained/Plasmolysis9/NavPages/BioAnimation93.jsx';
+import BioProcedure93 from './Components/Dashboard/BioPracticals/Bio9thexplained/Plasmolysis9/NavPages/BioProcedure93.jsx';
+import BioSimulator93 from './Components/Dashboard/BioPracticals/Bio9thexplained/Plasmolysis9/NavPages/BioSimulator93.jsx';
+import BioVivaVoice93 from './Components/Dashboard/BioPracticals/Bio9thexplained/Plasmolysis9/NavPages/BioVivaVoice93.jsx';
+import BioResources93 from './Components/Dashboard/BioPracticals/Bio9thexplained/Plasmolysis9/NavPages/BioResources93.jsx';
+import BioFeedback93 from './Components/Dashboard/BioPracticals/Bio9thexplained/Plasmolysis9/NavPages/BioFeedback93.jsx';
+import BioVideo93 from './Components/Dashboard/BioPracticals/Bio9thexplained/Plasmolysis9/NavPages/BioVideo93.jsx';
+
+// 9 4
+import A9Outlet from './Components/Dashboard/BioPracticals/Bio9thexplained/Amoeba9/Amoeba9Outlet.jsx'
+import BioTheory94 from './Components/Dashboard/BioPracticals/Bio9thexplained/Amoeba9/NavPages/BioTheory94.jsx'
+import BioAnimation94 from './Components/Dashboard/BioPracticals/Bio9thexplained/Amoeba9/NavPages/BioAnimation94.jsx';
+import BioProcedure94 from './Components/Dashboard/BioPracticals/Bio9thexplained/Amoeba9/NavPages/BioProcedure94.jsx';
+import BioSimulator94 from './Components/Dashboard/BioPracticals/Bio9thexplained/Amoeba9/NavPages/BioSimulator94.jsx';
+import BioVivaVoice94 from './Components/Dashboard/BioPracticals/Bio9thexplained/Amoeba9/NavPages/BioVivaVoice94.jsx';
+import BioResources94 from './Components/Dashboard/BioPracticals/Bio9thexplained/Amoeba9/NavPages/BioResources94.jsx';
+import BioFeedback94 from './Components/Dashboard/BioPracticals/Bio9thexplained/Amoeba9/NavPages/BioFeedback94.jsx';
+import BioVideo94 from './Components/Dashboard/BioPracticals/Bio9thexplained/Amoeba9/NavPages/BioVideo94.jsx';
 
 const App = () => {
   return (
@@ -394,7 +416,7 @@ const App = () => {
 
                   {/* 9 2 */}
                   <Route path="MicroScopicEx9/*" element={
-                    <MSE99Outlet>
+                    <MSE9Outlet>
                       <Routes>
                         <Route path="theory" element={<BioTheory92 />} />
                         <Route path="animation" element={<BioAnimation92 />} />
@@ -405,7 +427,39 @@ const App = () => {
                         <Route path="resources" element={<BioResources92 />} />
                         <Route path="feedback" element={<BioFeedback92 />} />
                       </Routes>
-                    </MSE99Outlet>
+                    </MSE9Outlet>
+                  } />
+
+                  {/* 9 3 */}
+                  <Route path="Plasmolysis9/*" element={
+                    <P9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<BioTheory93 />} />
+                        <Route path="animation" element={<BioAnimation93 />} />
+                        <Route path="procedure" element={<BioProcedure93 />} />
+                        <Route path="simulator" element={<BioSimulator93 />} />
+                        <Route path="video" element={<BioVideo93 />} />
+                        <Route path="viva" element={<BioVivaVoice93 />} />
+                        <Route path="resources" element={<BioResources93 />} />
+                        <Route path="feedback" element={<BioFeedback93 />} />
+                      </Routes>
+                    </P9Outlet>
+                  } />
+
+                  {/* 9 4 */}
+                  <Route path="Amoeba9/*" element={
+                    <A9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<BioTheory94 />} />
+                        <Route path="animation" element={<BioAnimation94 />} />
+                        <Route path="procedure" element={<BioProcedure94 />} />
+                        <Route path="simulator" element={<BioSimulator94 />} />
+                        <Route path="video" element={<BioVideo94 />} />
+                        <Route path="viva" element={<BioVivaVoice94 />} />
+                        <Route path="resources" element={<BioResources94 />} />
+                        <Route path="feedback" element={<BioFeedback94 />} />
+                      </Routes>
+                    </A9Outlet>
                   } />
                 </Routes>
               } />
@@ -426,85 +480,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// *********************************************
-// import './index.css'
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-// import Layout from './Layout.jsx';
-// import Home from './Components/Home/Home.jsx';
-// import Dashmain from './Components/Dashboard/Dashmain.jsx';
-// import DashboardLayout from './DashLayout.jsx';
-// import Bio from './Components/Dashboard/Subjects/Bio.jsx';
-// import BioPracticals from './Components/Dashboard/BioPracticals/BioPracticals.jsx';
-// import Chem from './Components/Dashboard/Subjects/Chem.jsx';
-// import ChemPracticals from './Components/Dashboard/ChemPracticals/ChemPracticals.jsx';
-// import Physics from './Components/Dashboard/Subjects/Physics.jsx';
-// import PhyPracticals from './Components/Dashboard/PhyPracticals/PhyPracticals.jsx';
-// import Emf from './Components/Dashboard/PhyPracticals/Phy9th/Emf.jsx';
-// import EmfExp from './Components/Dashboard/PhyPracticals/Phy9thexplained/EmfExp.jsx';
-
-// const App = () => {
-//   return (
-//     <Router>
-//       <Routes>
-//         <Route path="/" element={<Layout />}>
-//           <Route index element={<Home />} />
-//         </Route>
-//         <Route path="Dashmain/*"
-//           element={
-//             <DashboardLayout>
-//               <Routes>
-//                 <Route index element={<Dashmain />} />
-//                 {/* Add a new route for Practicals */}
-//                 <Route path="physics" element={<Physics />} />
-//                 <Route path="phypracticals" element={<PhyPracticals />} />
-//                 {/* <Route path="emf" element={<Emf />} /> */}
-//                 {/* <Route path="EmfExp" element={<EmfExp />} /> */}
-//                 <Route path="bio" element={<Bio />} />
-//                 <Route path="biopracticals" element={<BioPracticals />} />
-//                 <Route path="chem" element={<Chem />} />
-//                 <Route path="chempracticals" element={<ChemPracticals />} />
-//               </Routes>
-//             </DashboardLayout>
-//           }
-//         />
-//       </Routes>
-//     </Router>
-//   );
-// };
-
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
