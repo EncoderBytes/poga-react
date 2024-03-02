@@ -198,6 +198,62 @@ import BioResources95 from './Components/Dashboard/BioPracticals/Bio9thexplained
 import BioFeedback95 from './Components/Dashboard/BioPracticals/Bio9thexplained/StudyOfBacteria9/NavPages/BioFeedback95.jsx';
 import BioVideo95 from './Components/Dashboard/BioPracticals/Bio9thexplained/StudyOfBacteria9/NavPages/BioVideo95.jsx';
 
+// 101
+import BR10Outlet from './Components/Dashboard/BioPracticals/Bio10thexplained/BreathingRate10/BreathingRate10Outlet.jsx'
+import BioTheory101 from './Components/Dashboard/BioPracticals/Bio10thexplained/BreathingRate10/NavPages/BioTheory101.jsx'
+import BioAnimation101 from './Components/Dashboard/BioPracticals/Bio10thexplained/BreathingRate10/NavPages/BioAnimation101.jsx';
+import BioProcedure101 from './Components/Dashboard/BioPracticals/Bio10thexplained/BreathingRate10/NavPages/BioProcedure101.jsx';
+import BioSimulator101 from './Components/Dashboard/BioPracticals/Bio10thexplained/BreathingRate10/NavPages/BioSimulator101.jsx';
+import BioVivaVoice101 from './Components/Dashboard/BioPracticals/Bio10thexplained/BreathingRate10/NavPages/BioVivaVoice101.jsx';
+import BioResources101 from './Components/Dashboard/BioPracticals/Bio10thexplained/BreathingRate10/NavPages/BioResources101.jsx';
+import BioFeedback101 from './Components/Dashboard/BioPracticals/Bio10thexplained/BreathingRate10/NavPages/BioFeedback101.jsx';
+import BioVideo101 from './Components/Dashboard/BioPracticals/Bio10thexplained/BreathingRate10/NavPages/BioVideo101.jsx';
+
+// 102
+import TIC10Outlet from './Components/Dashboard/BioPracticals/Bio10thexplained/TarInCigrette10/TarInCigrette10Outlet.jsx'
+import BioTheory102 from './Components/Dashboard/BioPracticals/Bio10thexplained/TarInCigrette10/NavPages/BioTheory102.jsx'
+import BioAnimation102 from './Components/Dashboard/BioPracticals/Bio10thexplained/TarInCigrette10/NavPages/BioAnimation102.jsx';
+import BioProcedure102 from './Components/Dashboard/BioPracticals/Bio10thexplained/TarInCigrette10/NavPages/BioProcedure102.jsx';
+import BioSimulator102 from './Components/Dashboard/BioPracticals/Bio10thexplained/TarInCigrette10/NavPages/BioSimulator102.jsx';
+import BioVivaVoice102 from './Components/Dashboard/BioPracticals/Bio10thexplained/TarInCigrette10/NavPages/BioVivaVoice102.jsx';
+import BioResources102 from './Components/Dashboard/BioPracticals/Bio10thexplained/TarInCigrette10/NavPages/BioResources102.jsx';
+import BioFeedback102 from './Components/Dashboard/BioPracticals/Bio10thexplained/TarInCigrette10/NavPages/BioFeedback102.jsx';
+import BioVideo102 from './Components/Dashboard/BioPracticals/Bio10thexplained/TarInCigrette10/NavPages/BioVideo102.jsx';
+
+// 103
+import K10Outlet from './Components/Dashboard/BioPracticals/Bio10thexplained/Kidney10/Kidney10Outlet.jsx'
+import BioTheory103 from './Components/Dashboard/BioPracticals/Bio10thexplained/Kidney10/NavPages/BioTheory103.jsx'
+import BioAnimation103 from './Components/Dashboard/BioPracticals/Bio10thexplained/Kidney10/NavPages/BioAnimation103.jsx';
+import BioProcedure103 from './Components/Dashboard/BioPracticals/Bio10thexplained/Kidney10/NavPages/BioProcedure103.jsx';
+import BioSimulator103 from './Components/Dashboard/BioPracticals/Bio10thexplained/Kidney10/NavPages/BioSimulator103.jsx';
+import BioVivaVoice103 from './Components/Dashboard/BioPracticals/Bio10thexplained/Kidney10/NavPages/BioVivaVoice103.jsx';
+import BioResources103 from './Components/Dashboard/BioPracticals/Bio10thexplained/Kidney10/NavPages/BioResources103.jsx';
+import BioFeedback103 from './Components/Dashboard/BioPracticals/Bio10thexplained/Kidney10/NavPages/BioFeedback103.jsx';
+import BioVideo103 from './Components/Dashboard/BioPracticals/Bio10thexplained/Kidney10/NavPages/BioVideo103.jsx';
+
+// 104
+import E10Outlet from './Components/Dashboard/BioPracticals/Bio10thexplained/Eye10/Eye10Outlet.jsx'
+import BioTheory104 from './Components/Dashboard/BioPracticals/Bio10thexplained/Eye10/NavPages/BioTheory104.jsx'
+import BioAnimation104 from './Components/Dashboard/BioPracticals/Bio10thexplained/Eye10/NavPages/BioAnimation104.jsx';
+import BioProcedure104 from './Components/Dashboard/BioPracticals/Bio10thexplained/Eye10/NavPages/BioProcedure104.jsx';
+import BioSimulator104 from './Components/Dashboard/BioPracticals/Bio10thexplained/Eye10/NavPages/BioSimulator104.jsx';
+import BioVivaVoice104 from './Components/Dashboard/BioPracticals/Bio10thexplained/Eye10/NavPages/BioVivaVoice104.jsx';
+import BioResources104 from './Components/Dashboard/BioPracticals/Bio10thexplained/Eye10/NavPages/BioResources104.jsx';
+import BioFeedback104 from './Components/Dashboard/BioPracticals/Bio10thexplained/Eye10/NavPages/BioFeedback104.jsx';
+import BioVideo104 from './Components/Dashboard/BioPracticals/Bio10thexplained/Eye10/NavPages/BioVideo104.jsx';
+
+
+// 105
+import FIA10Outlet from './Components/Dashboard/BioPracticals/Bio10thexplained/FissionInAmoeba10/FissionInAmoeba10Outlet.jsx';
+import BioTheory105 from './Components/Dashboard/BioPracticals/Bio10thexplained/FissionInAmoeba10/NavPages/BioTheory105.jsx'
+import BioAnimation105 from './Components/Dashboard/BioPracticals/Bio10thexplained/FissionInAmoeba10/NavPages/BioAnimation105.jsx';
+import BioProcedure105 from './Components/Dashboard/BioPracticals/Bio10thexplained/FissionInAmoeba10/NavPages/BioProcedure105.jsx';
+import BioSimulator105 from './Components/Dashboard/BioPracticals/Bio10thexplained/FissionInAmoeba10/NavPages/BioSimulator105.jsx';
+import BioVivaVoice105 from './Components/Dashboard/BioPracticals/Bio10thexplained/FissionInAmoeba10/NavPages/BioVivaVoice105.jsx';
+import BioResources105 from './Components/Dashboard/BioPracticals/Bio10thexplained/FissionInAmoeba10/NavPages/BioResources105.jsx';
+import BioFeedback105 from './Components/Dashboard/BioPracticals/Bio10thexplained/FissionInAmoeba10/NavPages/BioFeedback105.jsx';
+import BioVideo105 from './Components/Dashboard/BioPracticals/Bio10thexplained/FissionInAmoeba10/NavPages/BioVideo105.jsx';
+
 const App = () => {
   return (
     <Router>
@@ -473,7 +529,7 @@ const App = () => {
                     </A9Outlet>
                   } />
 
-                  {/* 9 4 */}
+                  {/* 9 5 */}
                   <Route path="StudyOfBacteria9/*" element={
                     <SOB9Outlet>
                       <Routes>
@@ -487,6 +543,86 @@ const App = () => {
                         <Route path="feedback" element={<BioFeedback95 />} />
                       </Routes>
                     </SOB9Outlet>
+                  } />
+
+                  {/* 10 1 */}
+                  <Route path="BreathingRate10/*" element={
+                    <BR10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<BioTheory101 />} />
+                        <Route path="animation" element={<BioAnimation101 />} />
+                        <Route path="procedure" element={<BioProcedure101 />} />
+                        <Route path="simulator" element={<BioSimulator101 />} />
+                        <Route path="video" element={<BioVideo101 />} />
+                        <Route path="viva" element={<BioVivaVoice101 />} />
+                        <Route path="resources" element={<BioResources101 />} />
+                        <Route path="feedback" element={<BioFeedback101 />} />
+                      </Routes>
+                    </BR10Outlet>
+                  } />
+
+                  {/* 10 2 */}
+                  <Route path="TarInCigrette10/*" element={
+                    <TIC10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<BioTheory102 />} />
+                        <Route path="animation" element={<BioAnimation102 />} />
+                        <Route path="procedure" element={<BioProcedure102 />} />
+                        <Route path="simulator" element={<BioSimulator102 />} />
+                        <Route path="video" element={<BioVideo102 />} />
+                        <Route path="viva" element={<BioVivaVoice102 />} />
+                        <Route path="resources" element={<BioResources102 />} />
+                        <Route path="feedback" element={<BioFeedback102 />} />
+                      </Routes>
+                    </TIC10Outlet>
+                  } />
+
+                  {/* 10 3 */}
+                  <Route path="Kidney10/*" element={
+                    <K10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<BioTheory103 />} />
+                        <Route path="animation" element={<BioAnimation103 />} />
+                        <Route path="procedure" element={<BioProcedure103 />} />
+                        <Route path="simulator" element={<BioSimulator103 />} />
+                        <Route path="video" element={<BioVideo103 />} />
+                        <Route path="viva" element={<BioVivaVoice103 />} />
+                        <Route path="resources" element={<BioResources103 />} />
+                        <Route path="feedback" element={<BioFeedback103 />} />
+                      </Routes>
+                    </K10Outlet>
+                  } />
+
+                  {/* 10 4 */}
+                  <Route path="Eye10/*" element={
+                    <E10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<BioTheory104 />} />
+                        <Route path="animation" element={<BioAnimation104 />} />
+                        <Route path="procedure" element={<BioProcedure104 />} />
+                        <Route path="simulator" element={<BioSimulator104 />} />
+                        <Route path="video" element={<BioVideo104 />} />
+                        <Route path="viva" element={<BioVivaVoice104 />} />
+                        <Route path="resources" element={<BioResources104 />} />
+                        <Route path="feedback" element={<BioFeedback104 />} />
+                      </Routes>
+                    </E10Outlet>
+                  } />
+
+                  {/* 10 5 */}
+                  <Route path="FissionInAmoeba10/*" element={
+                    <FIA10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<BioTheory105 />} />
+                        <Route path="animation" element={<BioAnimation105 />} />
+                        <Route path="procedure" element={<BioProcedure105 />} />
+                        <Route path="simulator" element={<BioSimulator105 />} />
+                        <Route path="video" element={<BioVideo105 />} />
+                        <Route path="viva" element={<BioVivaVoice105 />} />
+                        <Route path="resources" element={<BioResources105 />} />
+                        <Route path="feedback" element={<BioFeedback105 />} />
+                      </Routes>
+                    </FIA10Outlet>
                   } />
                 </Routes>
               } />
