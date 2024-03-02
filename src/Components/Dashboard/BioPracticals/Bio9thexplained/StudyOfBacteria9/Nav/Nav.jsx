@@ -8,28 +8,28 @@ const Nav = () => {
             <nav className="bottom w-full h-14 rounded-lg bg-dark25 flex  justify-start items-center" >
                 <ul className='flex'>
                     <li className=''>
-                        <NavLink to="/Dashmain/phypracticals/VernierCaliper9/theory" className="py-4 px-6 rounded-lg"> Theory  </NavLink>
+                        <NavLink to="/Dashmain/biopracticals/StudyOfBacteria9/theory" className="py-4 px-6 rounded-lg"> Theory  </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/phypracticals/VernierCaliper9/procedure" className="py-4 px-6 rounded-lg">Procedure</NavLink>
+                        <NavLink to="/Dashmain/biopracticals/StudyOfBacteria9/procedure" className="py-4 px-6 rounded-lg">Procedure</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/phypracticals/VernierCaliper9/animation" className="py-4 px-6 rounded-lg">Animation</NavLink>
+                        <NavLink to="/Dashmain/biopracticals/StudyOfBacteria9/animation" className="py-4 px-6 rounded-lg">Animation</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/phypracticals/VernierCaliper9/simulator" className="py-4 px-6 rounded-lg">Simulator</NavLink>
+                        <NavLink to="/Dashmain/biopracticals/StudyOfBacteria9/simulator" className="py-4 px-6 rounded-lg">Simulator</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/phypracticals/VernierCaliper9/video" className="py-4 px-6 rounded-lg">Video</NavLink>
+                        <NavLink to="/Dashmain/biopracticals/StudyOfBacteria9/video" className="py-4 px-6 rounded-lg">Video</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/phypracticals/VernierCaliper9/viva" className="py-4 px-6 rounded-lg">Viva Voice</NavLink>
+                        <NavLink to="/Dashmain/biopracticals/StudyOfBacteria9/viva" className="py-4 px-6 rounded-lg">Viva Voice</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/phypracticals/VernierCaliper9/resources" className="py-4 px-6 rounded-lg">Resources</NavLink>
+                        <NavLink to="/Dashmain/biopracticals/StudyOfBacteria9/resources" className="py-4 px-6 rounded-lg">Resources</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/phypracticals/VernierCaliper9/feedback" className="py-4 px-6 rounded-lg">Feedback</NavLink>
+                        <NavLink to="/Dashmain/biopracticals/StudyOfBacteria9/feedback" className="py-4 px-6 rounded-lg">Feedback</NavLink>
                     </li>
                 </ul>
             </nav >

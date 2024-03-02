@@ -2,7 +2,7 @@ import React from 'react'
 import rectangle10 from '../../../../../../assets/Rectangle10.png'
 import rectangle8 from '../../../../../../assets/Rectangle8.png'
 
-const Animation91 = () => {
+const BioAnimation95 = () => {
   return (
     // <div className="relative mr-auto pb-32 mt-5 pt-24 overflow-hidden">
     //   {/* Top Right SVG */}
@@ -45,8 +45,8 @@ const Animation91 = () => {
     //     </defs>
     //   </svg>
     // </div>
-    <p>91</p>
+    <p className='py-10'>BioAnimation95</p>
   )
 }
 
-export default Animation91
+export default BioAnimation95

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Feedback91 = () => {
+const BioFeedback95 = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -14,7 +14,7 @@ const Feedback91 = () => {
     };
 
     return (
-        <div className='w-1/2 m-auto'>
+        <div className='w-1/2 m-auto pb-10'>
             <h2 className='font-semibold text-xl text-center py-7'>Feedback Foooorm</h2>
             <form onSubmit={handleSubmit}>
                 <div>
@@ -62,4 +62,4 @@ const Feedback91 = () => {
     )
 }
 
-export default Feedback91
+export default BioFeedback95

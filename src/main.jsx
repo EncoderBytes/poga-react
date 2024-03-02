@@ -187,6 +187,17 @@ import BioResources94 from './Components/Dashboard/BioPracticals/Bio9thexplained
 import BioFeedback94 from './Components/Dashboard/BioPracticals/Bio9thexplained/Amoeba9/NavPages/BioFeedback94.jsx';
 import BioVideo94 from './Components/Dashboard/BioPracticals/Bio9thexplained/Amoeba9/NavPages/BioVideo94.jsx';
 
+// 9 5
+import SOB9Outlet from './Components/Dashboard/BioPracticals/Bio9thexplained/StudyOfBacteria9/StudyOfBacteria9Outlet.jsx'
+import BioTheory95 from './Components/Dashboard/BioPracticals/Bio9thexplained/StudyOfBacteria9/NavPages/BioTheory95.jsx'
+import BioAnimation95 from './Components/Dashboard/BioPracticals/Bio9thexplained/StudyOfBacteria9/NavPages/BioAnimation95.jsx';
+import BioProcedure95 from './Components/Dashboard/BioPracticals/Bio9thexplained/StudyOfBacteria9/NavPages/BioProcedure95.jsx';
+import BioSimulator95 from './Components/Dashboard/BioPracticals/Bio9thexplained/StudyOfBacteria9/NavPages/BioSimulator95.jsx';
+import BioVivaVoice95 from './Components/Dashboard/BioPracticals/Bio9thexplained/StudyOfBacteria9/NavPages/BioVivaVoice95.jsx';
+import BioResources95 from './Components/Dashboard/BioPracticals/Bio9thexplained/StudyOfBacteria9/NavPages/BioResources95.jsx';
+import BioFeedback95 from './Components/Dashboard/BioPracticals/Bio9thexplained/StudyOfBacteria9/NavPages/BioFeedback95.jsx';
+import BioVideo95 from './Components/Dashboard/BioPracticals/Bio9thexplained/StudyOfBacteria9/NavPages/BioVideo95.jsx';
+
 const App = () => {
   return (
     <Router>
@@ -460,6 +471,22 @@ const App = () => {
                         <Route path="feedback" element={<BioFeedback94 />} />
                       </Routes>
                     </A9Outlet>
+                  } />
+
+                  {/* 9 4 */}
+                  <Route path="StudyOfBacteria9/*" element={
+                    <SOB9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<BioTheory95 />} />
+                        <Route path="animation" element={<BioAnimation95 />} />
+                        <Route path="procedure" element={<BioProcedure95 />} />
+                        <Route path="simulator" element={<BioSimulator95 />} />
+                        <Route path="video" element={<BioVideo95 />} />
+                        <Route path="viva" element={<BioVivaVoice95 />} />
+                        <Route path="resources" element={<BioResources95 />} />
+                        <Route path="feedback" element={<BioFeedback95 />} />
+                      </Routes>
+                    </SOB9Outlet>
                   } />
                 </Routes>
               } />
