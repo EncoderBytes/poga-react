@@ -4,44 +4,60 @@ const BioVivaVoice102 = () => {
     return (
         <>
             <div className=" mt-5 pl-3">
-                <p className="font-semibold text-dark text-xl my-4">1. Precision of Vernier callipers is</p>
+                <p className="font-semibold text-dark text-xl my-4">1. What is the purpose of demonstrating the presence of tar in cigarette smoke?</p>
                 <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer1" value="option1" /> 1mm</label></li>
-                    <li className="option"><label><input type="radio" name="answer1" value="option2" /> 0.1mm</label></li>
-                    <li className="option"><label><input type="radio" name="answer1" value="option3" /> 1cm</label></li>
-                    <li className="option"><label><input type="radio" name="answer1" value="option4" /> 0.1cm</label></li>
+                    <li className="option"><label><input type="radio" name="answer1" value="option1" /> To raise awareness about the harmful effects of smoking</label></li>
+                    <li className="option"><label><input type="radio" name="answer1" value="option2" /> To promote smoking cessation programs</label></li>
+                    <li className="option"><label><input type="radio" name="answer1" value="option3" /> To encourage people to quit smoking</label></li>
+                    <li className="option"><label><input type="radio" name="answer1" value="option4" /> To educate about the health risks associated with smoking</label></li>
                 </ol>
 
-                <p className="font-semibold text-dark text-xl my-4">2. One kilometre is equal to how many miles?</p>
+                <p className="font-semibold text-dark text-xl my-4">2. How can you demonstrate the presence of tar in cigarette smoke?</p>
                 <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer2" value="option1" /> 0.84</label></li>
-                    <li className="option"><label><input type="radio" name="answer2" value="option2" /> 0.5</label></li>
-                    <li className="option"><label><input type="radio" name="answer2" value="option3" /> 1.6</label></li>
-                    <li className="option"><label><input type="radio" name="answer2" value="option4" /> 0.62</label></li>
+                    <li className="option"><label><input type="radio" name="answer2" value="option1" /> Using a smoke analyzer device</label></li>
+                    <li className="option"><label><input type="radio" name="answer2" value="option2" /> Collecting and analyzing cigarette smoke residue</label></li>
+                    <li className="option"><label><input type="radio" name="answer2" value="option3" /> Conducting a chemical test on cigarette smoke</label></li>
+                    <li className="option"><label><input type="radio" name="answer2" value="option4" /> Observing the color changes of a filter exposed to cigarette smoke</label></li>
                 </ol>
 
-                <p className="font-semibold text-dark text-xl my-4">3. The number of significant figures in 0.00040 m is</p>
+                <p className="font-semibold text-dark text-xl my-4">3. What happens to the color of the filter when exposed to cigarette smoke containing tar?</p>
                 <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer3" value="option1" /> 1</label></li>
-                    <li className="option"><label><input type="radio" name="answer3" value="option2" /> 2</label></li>
-                    <li className="option"><label><input type="radio" name="answer3" value="option3" /> 3</label></li>
-                    <li className="option"><label><input type="radio" name="answer3" value="option4" /> 4</label></li>
+                    <li className="option"><label><input type="radio" name="answer3" value="option1" /> The filter remains unchanged in color</label></li>
+                    <li className="option"><label><input type="radio" name="answer3" value="option2" /> The filter turns yellowish-brown or dark brown</label></li>
+                    <li className="option"><label><input type="radio" name="answer3" value="option3" /> The filter becomes lighter in color</label></li>
+                    <li className="option"><label><input type="radio" name="answer3" value="option4" /> The filter turns blue or green</label></li>
                 </ol>
 
-                <p className="font-semibold text-dark text-xl my-4">4. Which of the following measurements is most precise?</p>
+                <p className="font-semibold text-dark text-xl my-4">4. Why does the filter change color when exposed to cigarette smoke?</p>
                 <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer4" value="option1" /> 5.00mm</label></li>
-                    <li className="option"><label><input type="radio" name="answer4" value="option2" /> 5.00cm</label></li>
-                    <li className="option"><label><input type="radio" name="answer4" value="option3" /> 5.00m</label></li>
-                    <li className="option"><label><input type="radio" name="answer4" value="option4" /> 5.00km</label></li>
+                    <li className="option"><label><input type="radio" name="answer4" value="option1" /> Due to the presence of nicotine in the smoke</label></li>
+                    <li className="option"><label><input type="radio" name="answer4" value="option2" /> Due to the heat generated by the cigarette</label></li>
+                    <li className="option"><label><input type="radio" name="answer4" value="option3" /> Due to the chemicals and tar particles in the smoke</label></li>
+                    <li className="option"><label><input type="radio" name="answer4" value="option4" /> Due to the presence of carbon monoxide in the smoke</label></li>
                 </ol>
 
-                <p className="font-semibold text-dark text-xl my-4">5. One nanometre is equal to</p>
+                <p className="font-semibold text-dark text-xl my-4">5. What are the harmful effects of tar on the respiratory system?</p>
                 <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer5" value="option1" /> 10 - 5 m</label></li>
-                    <li className="option"><label><input type="radio" name="answer5" value="option2" /> 10 - 6 m</label></li>
-                    <li className="option"><label><input type="radio" name="answer5" value="option3" /> 10 - 8 m</label></li>
-                    <li className="option"><label><input type="radio" name="answer5" value="option4" /> 10 - 9 m</label></li>
+                    <li className="option"><label><input type="radio" name="answer5" value="option1" /> Tar causes lung cancer</label></li>
+                    <li className="option"><label><input type="radio" name="answer5" value="option2" /> Tar leads to chronic bronchitis and emphysema</label></li>
+                    <li className="option"><label><input type="radio" name="answer5" value="option3" /> Tar damages the cilia in the airways</label></li>
+                    <li className="option"><label><input type="radio" name="answer5" value="option4" /> All of the above</label></li>
+                </ol>
+
+                <p className="font-semibold text-dark text-xl my-4">6. How do the lungs of smokers differ from the lungs of non-smokers?</p>
+                <ol className='pl-2 text-dark50 text-base'>
+                    <li className="option"><label><input type="radio" name="answer6" value="option1" /> Smokers' lungs have a higher lung capacity</label></li>
+                    <li className="option"><label><input type="radio" name="answer6" value="option2" /> Smokers' lungs are cleaner and free from tar</label></li>
+                    <li className="option"><label><input type="radio" name="answer6" value="option3" /> Smokers' lungs show signs of tar accumulation and damage</label></li>
+                    <li className="option"><label><input type="radio" name="answer6" value="option4" /> Smokers' lungs are more resistant to respiratory diseases</label></li>
+                </ol>
+
+                <p className="font-semibold text-dark text-xl my-4">7. What are some common health problems associated with smoking?</p>
+                <ol className='pl-2 text-dark50 text-base'>
+                    <li className="option"><label><input type="radio" name="answer7" value="option1" /> Lung cancer</label></li>
+                    <li className="option"><label><input type="radio" name="answer7" value="option2" /> Chronic obstructive pulmonary disease (COPD)</label></li>
+                    <li className="option"><label><input type="radio" name="answer7" value="option3" /> Cardiovascular diseases</label></li>
+                    <li className="option"><label><input type="radio" name="answer7" value="option4" /> All of the above</label></li>
                 </ol>
 
                 <div className="btn-container mt-10 pl-2 pb-3">

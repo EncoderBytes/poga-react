@@ -9,11 +9,11 @@ const MeterRod9Outlet = ({ children }) => {
                 <div className="top h-60 uppercase flex items-center justify-between bg-overviewWhite rounded-lg">
                     <div className="left pl-10">
                         <p className="text-dark50 font-medium text-2xl">Physics</p>
-                        <div className="font-bold text-5xl w-3/3" style={{
+                        <div className="font-bold text-4xl w-4/5" style={{
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
-                        }}>VERIFY THE PRINCIPLE OF MOMENTS BY USING A METRE ROD BALANCED ON A WEDGE</div>
+                        }}>IDENTIFY THE DIFFERENT PARTS AND DRAW A LABELED DIAGRAM OF THE LONGITUDINAL SECTION OF THE EYE OF A SHEEP</div>
                     </div>
 
                     <div className="right p-5">

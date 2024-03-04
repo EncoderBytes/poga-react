@@ -9,11 +9,11 @@ const PendulumTwo9Outlet = ({ children }) => {
                 <div className="top h-60 uppercase flex items-center justify-between bg-overviewWhite rounded-lg">
                     <div className="left pl-10">
                         <p className="text-dark50 font-medium text-2xl">Physics</p>
-                        <div className="font-bold text-5xl w-3/3" style={{
+                        <div className="font-bold text-5xl w-6/6" style={{
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
-                        }}>EFFECT OF LENGTH OF SIMPLE PENDULUM ON ITS TIME PERIOD</div>
+                        }}>EXAMINATION OF THE STRUCTURE OF THE KIDNEY (SHEEP KIDNEY / MODEL)</div>
                     </div>
 
                     <div className="right p-5">

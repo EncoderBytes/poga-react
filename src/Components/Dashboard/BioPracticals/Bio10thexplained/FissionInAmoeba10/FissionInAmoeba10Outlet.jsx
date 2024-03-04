@@ -13,7 +13,7 @@ const PendulumOne9Outlet = ({ children }) => {
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
-                        }}>PROVE THAT TIME PERIOD OF A SIMPLE PENDULUM IS INDEPENDENT OF MASS OF THE PENDULUM</div>
+                        }}>OBSERVATION OF BINARY FISSION IN AMOEBA BY USING SLIDES, PHOTOMICROGRAPHS, AND CHARTS</div>
                     </div>
 
                     <div className="right p-5">

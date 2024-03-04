@@ -3,26 +3,16 @@ import React from 'react'
 const BioProcedure103 = () => {
   return (
     <>
-      <div className='w-4/5 pl-4 pb-5'>
+      <div className='w-4/5 pl-4 pt-5 pb-10'>
         <p className="text-dark font-semibold text-xl mb-1">PROCEDURE</p>
-        <ol className="text-dark50 font-normal text-base pl-5 list-disc mb-4">
-          <li>Measure the diameter of the hook of the bob with the help of a Vernier calliper and calculate the radius of the bob (i.e. D/2).</li>
-          <li>Take an inextensible string and tie one end with the hook of the bob.</li>
-          <li>Place the other end of the cork between the split cork.</li>
-          <li>Clamp the cork o an iron stand. The bob of the pendulum must be only a few cm above the ground.</li>
-          <li>Measure the length of the pendulum which will be l=l+h.</li>
-          <li>Draw two mutually perpendicular lines with the help of the chalk on the floor mean position o, point A and point B shows the extreme position A and B.</li>
-          <li>Then release the bob gently. The oscillation of the bob should be along a straight line.</li>
-          <li>Start the stopwatch when the bob just passes point o and at the same time start counting the oscillations from zero. Not the time for 2D complete oscillation.</li>
-          <li>Repeat step 8 to obtain another value of time t2 and find the mean t, t=(t1+t2)/2.</li>
-          <li>Calculate the mean time period for one oscillation as, T=t/20.</li>
-          <li>Repeat the experiment by changing the length of the pendulum in steps of 10cm each.</li>
-        </ol>
-        <p className="text-dark font-semibold text-xl mb-1">PRECAUTIONS</p>
-        <ol className="text-dark50 font-normal text-base pl-5 list-disc mb-4">
-          <li>The bob of the pendulum should not be more than a few centimeters above the ground.</li>
-          <li>The vibration of the bob should be linear.</li>
-          <li>The amplitude of oscillation should be kept small.</li>
+        <ol className="text-dark50 font-normal text-base pl-5 list-decimal mb-4">
+          <li>Begin the practical by explaining the importance of the kidney in the human body, highlighting its role in filtering waste products and maintaining fluid balance. b. Show the kidney model to the students, pointing out the different structures such as the renal cortex, renal medulla, renal pelvis, and renal blood vessels.</li>
+
+          <li>Examine the external features of the kidney model. b. Observe the overall shape of the kidney, noting its bean-like appearance. c. Identify the hilum, a concave region on the medial side of the kidney model. Explain that it is the point of entry and exit for blood vessels, nerves, and the ureter. d. Discuss the protective layer surrounding the kidney called the renal capsule.</li>
+
+          <li>Use dissection tools to carefully cut the kidney model along the longitudinal axis. b. Identify and observe the renal cortex, which is the outer layer of the kidney. Note its granular appearance. c. Beneath the cortex, locate the renal medulla, which consists of triangular structures called renal pyramids. Explain that the medulla contains tubules and blood vessels. d. Locate the renal pelvis, a funnel-shaped structure at the center of the kidney model. Explain that it collects urine produced by the kidney and directs it to the ureter. e. Observe the renal blood vessels, such as the renal artery and renal vein, within the kidney model.</li>
+
+          <li>Using a hand lens or magnifying glass, examine the cut surface of the kidney model to observe the microscopic structures called nephrons. b. Point out the glomerulus, a network of tiny blood vessels, and the renal tubules connected to it. c. Explain that the nephron is the functional unit of the kidney responsible for filtering blood and producing urine.</li>
         </ol>
       </div>
     </>

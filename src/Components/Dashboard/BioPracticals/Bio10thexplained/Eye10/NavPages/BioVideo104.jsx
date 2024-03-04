@@ -15,10 +15,8 @@ const BioVideo104 = () => {
             </svg>
 
             <div className="w-widthhh h-96 m-auto relative z-10 flex items-center justify-center">
-                <iframe className='rounded-xl' width="100%" height="420" src="https://www.youtube.com/embed/Hy7wRzYDhEQ" title="EXPERIMENT 15.1: Trace the magnetic field using a bar magnet." frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe className='rounded-xl' width="100%" height="420" src="https://www.youtube.com/embed/O8c3e5lXbQs" title="EXPERIMENT 15.1: Trace the magnetic field using a bar magnet." frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-
-            {/* <iframe width="740" height="480" src="https://www.youtube.com/embed/7JKclDicTfk" title="To study resistors in parallel circuit." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
 
             {/* Bottom Left SVG */}
             <svg xmlns="http://www.w3.org/2000/svg" width="666" height="309" viewBox="0 0 666 309" fill="none" className="absolute top-80 right-0 z-0">

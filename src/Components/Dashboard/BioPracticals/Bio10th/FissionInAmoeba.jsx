@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom'
 const FissionInAmoeba = () => {
     return (
         <NavLink to='/Dashmain/biopracticals/FissionInAmoeba10/theory'>
-            {/* <   NavLink to='/Dashmain/'> */}
             <div className='w-64 h-64 bg-overviewWhite border-primaryGradient border-2 rounded-xl relative'>
                 <div className="p-4">
                     <img src={FissionInAmoebaImg} alt="" className='rounded-md' />
