@@ -15,7 +15,7 @@ const ChemVideo106 = () => {
             </svg>
 
             <div className="w-widthhh h-96 m-auto relative z-10 flex items-center justify-center">
-                <iframe className='rounded-xl' width="100%" height="420" src="https://www.youtube.com/embed/ZceDhBPBE30" title="EXPERIMENT 15.1: Trace the magnetic field using a bar magnet." frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe className='rounded-xl' width="100%" height="420" src="https://www.youtube.com/embed/hxVJi4M3Xtg" title="EXPERIMENT 15.1: Trace the magnetic field using a bar magnet." frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
 
             {/* Bottom Left SVG */}

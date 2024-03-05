@@ -3,60 +3,44 @@ import React from 'react'
 const ChemVivaVoice106 = () => {
     return (
         <div className=" mt-5 pl-3">
-            <p className="font-semibold text-dark text-xl my-4">1. What is the purpose of examining the structure of the kidney?</p>
+            <p className="font-semibold text-dark text-xl my-4">1. Which of the following hydrocarbons is saturated?</p>
             <ol className='pl-2 text-dark50 text-base'>
-                <li className="option"><label><input type="radio" name="answer1" value="option1" /> To understand the anatomy and function of the kidney</label></li>
-                <li className="option"><label><input type="radio" name="answer1" value="option2" /> To identify abnormalities or diseases in the kidney</label></li>
-                <li className="option"><label><input type="radio" name="answer1" value="option3" /> To study the filtration and excretion processes in the kidney</label></li>
-                <li className="option"><label><input type="radio" name="answer1" value="option4" /> All of the above</label></li>
+                <li className="option"><label><input type="radio" name="answer1" value="option1" /> Ethene </label></li>
+                <li className="option"><label><input type="radio" name="answer1" value="option2" /> Ethane </label></li>
+                <li className="option"><label><input type="radio" name="answer1" value="option3" /> Propyne</label></li>
+                <li className="option"><label><input type="radio" name="answer1" value="option4" /> Propyne</label></li>
             </ol>
 
-            <p className="font-semibold text-dark text-xl my-4">2. What is the main function of the kidney?</p>
+            <p className="font-semibold text-dark text-xl my-4">2. Saturated hydrocarbons contain:</p>
             <ol className='pl-2 text-dark50 text-base'>
-                <li className="option"><label><input type="radio" name="answer2" value="option1" /> Regulation of body temperature</label></li>
-                <li className="option"><label><input type="radio" name="answer2" value="option2" /> Production of red blood cells</label></li>
-                <li className="option"><label><input type="radio" name="answer2" value="option3" /> Filtration of waste products from the blood</label></li>
-                <li className="option"><label><input type="radio" name="answer2" value="option4" /> Secretion of digestive enzymes</label></li>
+                <li className="option"><label><input type="radio" name="answer2" value="option1" /> Only single bonds between carbon atoms</label></li>
+                <li className="option"><label><input type="radio" name="answer2" value="option2" /> Only double bonds between carbon atoms</label></li>
+                <li className="option"><label><input type="radio" name="answer2" value="option3" /> Only triple bonds between carbon atoms</label></li>
+                <li className="option"><label><input type="radio" name="answer2" value="option4" /> Both single and double bonds between carbon atoms</label></li>
             </ol>
 
-            <p className="font-semibold text-dark text-xl my-4">3. Which part of the kidney is responsible for the filtration of blood?</p>
+            <p className="font-semibold text-dark text-xl my-4">3. Which of the following is an example of an unsaturated hydrocarbon?</p>
             <ol className='pl-2 text-dark50 text-base'>
-                <li className="option"><label><input type="radio" name="answer3" value="option1" /> Renal cortex</label></li>
-                <li className="option"><label><input type="radio" name="answer3" value="option2" /> Renal medulla</label></li>
-                <li className="option"><label><input type="radio" name="answer3" value="option3" /> Renal pelvis</label></li>
-                <li className="option"><label><input type="radio" name="answer3" value="option4" /> Renal artery</label></li>
+                <li className="option"><label><input type="radio" name="answer3" value="option1" /> Propane</label></li>
+                <li className="option"><label><input type="radio" name="answer3" value="option2" /> Benzene</label></li>
+                <li className="option"><label><input type="radio" name="answer3" value="option3" /> Butane</label></li>
+                <li className="option"><label><input type="radio" name="answer3" value="option4" /> Pentane</label></li>
             </ol>
 
-            <p className="font-semibold text-dark text-xl my-4">4. What is the functional unit of the kidney?</p>
+            <p className="font-semibold text-dark text-xl my-4">4. Unsaturated hydrocarbons can form:</p>
             <ol className='pl-2 text-dark50 text-base'>
-                <li className="option"><label><input type="radio" name="answer4" value="option1" /> Nephron</label></li>
-                <li className="option"><label><input type="radio" name="answer4" value="option2" /> Glomerulus</label></li>
-                <li className="option"><label><input type="radio" name="answer4" value="option3" /> Ureter</label></li>
-                <li className="option"><label><input type="radio" name="answer4" value="option4" /> Collecting duct</label></li>
+                <li className="option"><label><input type="radio" name="answer4" value="option1" /> Cyclic structures</label></li>
+                <li className="option"><label><input type="radio" name="answer4" value="option2" /> Only linear chains</label></li>
+                <li className="option"><label><input type="radio" name="answer4" value="option3" /> Only branched chains</label></li>
+                <li className="option"><label><input type="radio" name="answer4" value="option4" /> Both cyclic structures and linear/branched chains</label></li>
             </ol>
 
-            <p className="font-semibold text-dark text-xl my-4">5. Which structure of the kidney is responsible for collecting urine from the nephrons?</p>
+            <p className="font-semibold text-dark text-xl my-4">5. Which of the following is a characteristic of saturated fats?</p>
             <ol className='pl-2 text-dark50 text-base'>
-                <li className="option"><label><input type="radio" name="answer5" value="option1" /> Glomerulus</label></li>
-                <li className="option"><label><input type="radio" name="answer5" value="option2" /> Ureter</label></li>
-                <li className="option"><label><input type="radio" name="answer5" value="option3" /> Renal pelvis</label></li>
-                <li className="option"><label><input type="radio" name="answer5" value="option4" /> Renal tubule</label></li>
-            </ol>
-
-            <p className="font-semibold text-dark text-xl my-4">6. What is the role of the glomerulus in the kidney?</p>
-            <ol className='pl-2 text-dark50 text-base'>
-                <li className="option"><label><input type="radio" name="answer6" value="option1" /> Filtration of blood</label></li>
-                <li className="option"><label><input type="radio" name="answer6" value="option2" /> Reabsorption of water and nutrients</label></li>
-                <li className="option"><label><input type="radio" name="answer6" value="option3" /> Secretion of waste products</label></li>
-                <li className="option"><label><input type="radio" name="answer6" value="option4" /> Storage of urine</label></li>
-            </ol>
-
-            <p className="font-semibold text-dark text-xl my-4">7. What are some common kidney disorders?</p>
-            <ol className='pl-2 text-dark50 text-base'>
-                <li className="option"><label><input type="radio" name="answer7" value="option1" /> Kidney stones</label></li>
-                <li className="option"><label><input type="radio" name="answer7" value="option2" /> Urinary tract infections</label></li>
-                <li className="option"><label><input type="radio" name="answer7" value="option3" /> Chronic kidney disease</label></li>
-                <li className="option"><label><input type="radio" name="answer7" value="option4" /> All of the above</label></li>
+                <li className="option"><label><input type="radio" name="answer5" value="option1" /> They are solid at room temperature</label></li>
+                <li className="option"><label><input type="radio" name="answer5" value="option2" /> They contain double bonds</label></li>
+                <li className="option"><label><input type="radio" name="answer5" value="option3" /> They are primarily found in plant-based oils</label></li>
+                <li className="option"><label><input type="radio" name="answer5" value="option4" /> They are considered healthier than unsaturated fats</label></li>
             </ol>
 
             <div className="btn-container mt-10 pl-2 pb-3">

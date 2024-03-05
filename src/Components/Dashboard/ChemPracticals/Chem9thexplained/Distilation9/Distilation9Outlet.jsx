@@ -8,7 +8,7 @@ const MicroScopicEx9Outlet = ({ children }) => {
             <div className='w-11/12 m-auto '>
                 <div className="top h-60 uppercase flex items-center justify-between bg-overviewWhite rounded-lg">
                     <div className="left pl-10">
-                        <p className="text-dark50 font-medium text-2xl">Physics</p>
+                        <p className="text-dark50 font-medium text-2xl">Chemistry</p>
                         <div className="font-bold text-5xl w-3/3" style={{
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',

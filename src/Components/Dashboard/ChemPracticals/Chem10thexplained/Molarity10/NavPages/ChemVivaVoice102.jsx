@@ -4,60 +4,44 @@ const ChemVivaVoice102 = () => {
     return (
         <>
             <div className=" mt-5 pl-3">
-                <p className="font-semibold text-dark text-xl my-4">1. What is the purpose of demonstrating the presence of tar in cigarette smoke?</p>
+                <p className="font-semibold text-dark text-xl my-4">1. Crystals of Na2CO3. 10H2O when exposed to air_________________?</p>
                 <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer1" value="option1" /> To raise awareness about the harmful effects of smoking</label></li>
-                    <li className="option"><label><input type="radio" name="answer1" value="option2" /> To promote smoking cessation programs</label></li>
-                    <li className="option"><label><input type="radio" name="answer1" value="option3" /> To encourage people to quit smoking</label></li>
-                    <li className="option"><label><input type="radio" name="answer1" value="option4" /> To educate about the health risks associated with smoking</label></li>
+                    <li className="option"><label><input type="radio" name="answer1" value="option1" /> Lose water and remain solid</label></li>
+                    <li className="option"><label><input type="radio" name="answer1" value="option2" /> Gain water and remain solid</label></li>
+                    <li className="option"><label><input type="radio" name="answer1" value="option3" /> Gain water and become liquid</label></li>
+                    <li className="option"><label><input type="radio" name="answer1" value="option4" /> Remains unchanged</label></li>
                 </ol>
 
-                <p className="font-semibold text-dark text-xl my-4">2. How can you demonstrate the presence of tar in cigarette smoke?</p>
+                <p className="font-semibold text-dark text-xl my-4"> 2. What term is used to describe a substance that, when exposed to air, absorbs so much water from the air that it eventually forms a solution?</p>
                 <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer2" value="option1" /> Using a smoke analyzer device</label></li>
-                    <li className="option"><label><input type="radio" name="answer2" value="option2" /> Collecting and analyzing cigarette smoke residue</label></li>
-                    <li className="option"><label><input type="radio" name="answer2" value="option3" /> Conducting a chemical test on cigarette smoke</label></li>
-                    <li className="option"><label><input type="radio" name="answer2" value="option4" /> Observing the color changes of a filter exposed to cigarette smoke</label></li>
+                    <li className="option"><label><input type="radio" name="answer2" value="option1" /> Hydrated</label></li>
+                    <li className="option"><label><input type="radio" name="answer2" value="option2" /> Efflorescent</label></li>
+                    <li className="option"><label><input type="radio" name="answer2" value="option3" /> Efflorescent</label></li>
+                    <li className="option"><label><input type="radio" name="answer2" value="option4" /> Deliquescent</label></li>
                 </ol>
 
-                <p className="font-semibold text-dark text-xl my-4">3. What happens to the color of the filter when exposed to cigarette smoke containing tar?</p>
+                <p className="font-semibold text-dark text-xl my-4">3. Which one is Natron?</p>
                 <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer3" value="option1" /> The filter remains unchanged in color</label></li>
-                    <li className="option"><label><input type="radio" name="answer3" value="option2" /> The filter turns yellowish-brown or dark brown</label></li>
-                    <li className="option"><label><input type="radio" name="answer3" value="option3" /> The filter becomes lighter in color</label></li>
-                    <li className="option"><label><input type="radio" name="answer3" value="option4" /> The filter turns blue or green</label></li>
+                    <li className="option"><label><input type="radio" name="answer3" value="option1" /> Na2CO3</label></li>
+                    <li className="option"><label><input type="radio" name="answer3" value="option2" /> Na2CO3.10H2O</label></li>
+                    <li className="option"><label><input type="radio" name="answer3" value="option3" /> Na2CO3.H2O</label></li>
+                    <li className="option"><label><input type="radio" name="answer3" value="option4" /> NaHCO3</label></li>
                 </ol>
 
-                <p className="font-semibold text-dark text-xl my-4">4. Why does the filter change color when exposed to cigarette smoke?</p>
+                <p className="font-semibold text-dark text-xl my-4">4. In general, the pH scale spans from</p>
                 <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer4" value="option1" /> Due to the presence of nicotine in the smoke</label></li>
-                    <li className="option"><label><input type="radio" name="answer4" value="option2" /> Due to the heat generated by the cigarette</label></li>
-                    <li className="option"><label><input type="radio" name="answer4" value="option3" /> Due to the chemicals and tar particles in the smoke</label></li>
-                    <li className="option"><label><input type="radio" name="answer4" value="option4" /> Due to the presence of carbon monoxide in the smoke</label></li>
+                    <li className="option"><label><input type="radio" name="answer4" value="option1" /> 0 - 1</label></li>
+                    <li className="option"><label><input type="radio" name="answer4" value="option2" /> -1 - 1</label></li>
+                    <li className="option"><label><input type="radio" name="answer4" value="option3" /> 0 - 7</label></li>
+                    <li className="option"><label><input type="radio" name="answer4" value="option4" /> 0 - 14</label></li>
                 </ol>
 
-                <p className="font-semibold text-dark text-xl my-4">5. What are the harmful effects of tar on the respiratory system?</p>
+                <p className="font-semibold text-dark text-xl my-4">5. Which of the following as a Process to prepare washing soda?</p>
                 <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer5" value="option1" /> Tar causes lung cancer</label></li>
-                    <li className="option"><label><input type="radio" name="answer5" value="option2" /> Tar leads to chronic bronchitis and emphysema</label></li>
-                    <li className="option"><label><input type="radio" name="answer5" value="option3" /> Tar damages the cilia in the airways</label></li>
-                    <li className="option"><label><input type="radio" name="answer5" value="option4" /> All of the above</label></li>
-                </ol>
-
-                <p className="font-semibold text-dark text-xl my-4">6. How do the lungs of smokers differ from the lungs of non-smokers?</p>
-                <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer6" value="option1" /> Smokers' lungs have a higher lung capacity</label></li>
-                    <li className="option"><label><input type="radio" name="answer6" value="option2" /> Smokers' lungs are cleaner and free from tar</label></li>
-                    <li className="option"><label><input type="radio" name="answer6" value="option3" /> Smokers' lungs show signs of tar accumulation and damage</label></li>
-                    <li className="option"><label><input type="radio" name="answer6" value="option4" /> Smokers' lungs are more resistant to respiratory diseases</label></li>
-                </ol>
-
-                <p className="font-semibold text-dark text-xl my-4">7. What are some common health problems associated with smoking?</p>
-                <ol className='pl-2 text-dark50 text-base'>
-                    <li className="option"><label><input type="radio" name="answer7" value="option1" /> Lung cancer</label></li>
-                    <li className="option"><label><input type="radio" name="answer7" value="option2" /> Chronic obstructive pulmonary disease (COPD)</label></li>
-                    <li className="option"><label><input type="radio" name="answer7" value="option3" /> Cardiovascular diseases</label></li>
-                    <li className="option"><label><input type="radio" name="answer7" value="option4" /> All of the above</label></li>
+                    <li className="option"><label><input type="radio" name="answer5" value="option1" /> Solvay Process</label></li>
+                    <li className="option"><label><input type="radio" name="answer5" value="option2" /> Amalgam Process</label></li>
+                    <li className="option"><label><input type="radio" name="answer5" value="option3" /> Boiling</label></li>
+                    <li className="option"><label><input type="radio" name="answer5" value="option4" /> Clark’s Process</label></li>
                 </ol>
 
                 <div className="btn-container mt-10 pl-2 pb-3">

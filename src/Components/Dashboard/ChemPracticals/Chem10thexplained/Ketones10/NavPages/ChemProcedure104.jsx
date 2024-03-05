@@ -1,17 +1,20 @@
 import React from 'react'
+import img from '../../../../../../assets/chem/procedure1.jpg'
 
 const ChemProcedure104 = () => {
   return (
-    <>
-      <div className='w-4/5 pl-4 pb-10 pt-5'>
-        <p className="text-dark font-semibold text-xl mb-1">Procedure</p>
-        <ol className="text-dark50 font-normal text-base pl-5 list-decimal">
-          <li>Begin the practical by explaining the process of binary fission in Amoeba. binary fission is a form of asexual reproduction in which a single organism divides into two identical daughter cells.</li>
-          <li>Look for Amoeba cells undergoing binary fission. Observe the various stages, such as elongation, nuclear division, and separation of the daughter cells. e. Take notes or draw sketches of the observed stages and structures.</li>
-          <li>Compare the observed stages of binary fission in Amoeba with the charts or diagrams provided. b. Discuss the significance of binary fission as a means of reproduction in Amoeba and its role in population growth and survival.</li>
-        </ol>
-      </div>
-    </>
+    <div className='w-4/5 pl-4 pb-10 pt-5'>
+      <p className="text-dark font-semibold text-xl mb-1">Procedure</p>
+      <ol className="text-dark50 font-normal text-base pl-5 pb-3 list-decimal">
+        <li>Take few cm3 of acetone or fructose solution in a test tube.</li>
+        <li>Add 2-4 dinitrophenyl-hydrazine drop wise by means of a dropper.</li>
+        <li>Shake the mixture vigorously. Orange yellow crystalline precipitate is formed after few minutes. Add few drops of sulphuric acid if the reaction</li>
+      </ol>
+
+      <p className="text-dark font-semibold text-xl mb-1">A positive test is indicated by:</p>
+      <p className="text-dark50 font-normal text-base pl-3 pb-3">The formation of a yellow, orange or orange-red precipitate</p>
+      <img src={img} alt="" />
+    </div>
   )
 }
 

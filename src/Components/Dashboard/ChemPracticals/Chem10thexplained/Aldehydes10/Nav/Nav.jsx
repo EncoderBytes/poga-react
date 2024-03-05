@@ -29,7 +29,7 @@ const Nav = () => {
                         <NavLink to="/Dashmain/chempracticals/Aldehydes10/resources" className="py-4 px-6 rounded-lg">Resources</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/biopracticals/BreathingRate10/feedback" className="py-4 px-6 rounded-lg">Feedback</NavLink>
+                        <NavLink to="/Dashmain/chempracticals/Aldehydes10/feedback" className="py-4 px-6 rounded-lg">Feedback</NavLink>
                     </li>
                 </ul>
             </nav >

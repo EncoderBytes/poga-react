@@ -3,32 +3,21 @@ import React from 'react'
 const ChemTheory102 = () => {
   return (
     <div className='w-4/5 pl-4 pt-5 pb-10'>
-      <p className="text-dark50 font-normal text-base pl-1 pb-3">Cigarette smoke contains various harmful substances, including tar, which is a sticky, brown residue that forms when tobacco is burned. Tar contains numerous toxic chemicals and carcinogens that can have detrimental effects on the respiratory system. By conducting a practical demonstration, we can show the presence of tar in cigarette smoke and visually illustrate the differences in lung health between smokers and non-smokers.</p>
-
-      <p className="text-dark font-semibold text-xl mb-2">Apparatus</p>
+      <p className="text-dark font-semibold text-xl mb-2">Chemical analysis is divided into two main classes:</p>
       <ol className='text-dark50 list-decimal pl-5 pb-3'>
-        <li>Cigarettes or tobacco samples</li>
-        <li>Glass jar with a lid</li>
-        <li>Cotton balls or filter paper</li>
-        <li>Safety goggles and gloves</li>
-        <li>Spirit lamp</li>
-        <li>Pictures or illustrations of healthy and diseased lungs</li>
+        <li>Quantitative Analysis: The object of quantitative analysis is to determine the actual amounts of the constituents of a compound, and the amount of material dissolved in solutions.</li>
+        <li>Qualitative Analysis: This type of analysis involves the investigation and identification of substances in their simplest or complicated forms. Sodium carbonate (Na2CO3) is available as washing soda (Na2CO3.10H2O) and soda ash (Na2CO3) also called anhydrous sodium When plants are dried and carbonate. The aqueous solution of sodium carbonate is alkaline in nature.</li>
       </ol>
 
-      <p className="text-dark font-semibold text-xl mb-3">Precautions</p>
-      <p className="text-dark50 font-normal text-base pl-1">It is important to conduct this practical demonstration in a well-ventilated area and follow safety protocols to minimize exposure to harmful smoke and protect the well-being of participants.</p>
+      <p className="text-dark font-semibold text-xl mb-1">Apparatus Required:</p>
+      <p className="text-dark50 font-normal text-base pl-1 pb-3">Burette, Conical Flask, Pipette, Funnel, Beakers, Dropper, Iron Stand</p>
 
-      <p className="text-dark font-semibold text-xl mb-2">Difference between healthy lungs and diseased lungs:</p>
+      <p className="text-dark font-semibold text-xl mb-2">Chemicals Required:</p>
       <ol className='text-dark50 list-decimal pl-5 pb-3'>
-        <li>Healthy lungs exhibit a pinkish color and smooth texture.</li>
-        <li>Diseased lungs associated with smoking may show tar deposits, blackened areas, and indications of respiratory diseases such as lung cancer or COPD.</li>
-        <li>The comparison between healthy and diseased lungs visually emphasizes the negative impact of smoking on lung health.</li>
-      </ol>
-
-      <p className="text-dark font-semibold text-xl mb-2">Observation</p>
-      <ol className='text-dark50 list-decimal pl-5 pb-3'>
-        <li>The cotton ball or filter paper inside the jar turns brown due to the condensation of tar.</li>
-        <li>Note the presence of tar by rubbing white tissue paper on the inner wall of the funnel.</li>
+        <li>Standard solution of 0.1M HCl</li>
+        <li>Solution of NaOH</li>
+        <li>Distilled Water</li>
+        <li>Methyl Orange as indicator</li>
       </ol>
     </div >
   )
