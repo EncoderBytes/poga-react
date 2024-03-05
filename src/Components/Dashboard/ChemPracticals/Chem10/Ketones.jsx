@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const Ketones = () => {
     return (
-        <NavLink to='/Dashmain/phypracticals/OhmExp11'>
+        <NavLink to='/Dashmain/chempracticals/Ketones10/theory'>
             <div className='w-64 h-64 bg-overviewWhite border-primaryGradient border-2 rounded-xl relative'>
                 <div className="p-4">
                     <img src={KetonesImg} alt="" className='rounded-md' />

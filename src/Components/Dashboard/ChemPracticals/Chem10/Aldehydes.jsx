@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const Aldehydes = () => {
     return (
-        <NavLink to='/Dashmain/phypracticals/OhmExp11'>
+        <NavLink to='/Dashmain/chempracticals/Aldehydes10/theory'>
             <div className='w-64 h-64 bg-overviewWhite border-primaryGradient border-2 rounded-xl relative'>
                 <div className="p-4">
                     <img src={AldehydesImg} alt="" className='rounded-md' />

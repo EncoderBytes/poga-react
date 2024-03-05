@@ -254,6 +254,72 @@ import BioResources105 from './Components/Dashboard/BioPracticals/Bio10thexplain
 import BioFeedback105 from './Components/Dashboard/BioPracticals/Bio10thexplained/FissionInAmoeba10/NavPages/BioFeedback105.jsx';
 import BioVideo105 from './Components/Dashboard/BioPracticals/Bio10thexplained/FissionInAmoeba10/NavPages/BioVideo105.jsx';
 
+// chem 10 1
+import FT10Outlet from './Components/Dashboard/ChemPracticals/Chem10thexplained/FlameTest10/FlameTest10Outlet.jsx'
+import ChemTheory101 from './Components/Dashboard/ChemPracticals/Chem10thexplained/FlameTest10/NavPages/ChemTheory101.jsx'
+import ChemAnimation101 from './Components/Dashboard/ChemPracticals/Chem10thexplained/FlameTest10/NavPages/ChemAnimation101.jsx'
+import ChemProcedure101 from './Components/Dashboard/ChemPracticals/Chem10thexplained/FlameTest10/NavPages/ChemProcedure101.jsx'
+import ChemSimulator101 from './Components/Dashboard/ChemPracticals/Chem10thexplained/FlameTest10/NavPages/ChemSimulator101.jsx'
+import ChemVivaVoice101 from './Components/Dashboard/ChemPracticals/Chem10thexplained/FlameTest10/NavPages/ChemVivaVoice101.jsx'
+import ChemResources101 from './Components/Dashboard/ChemPracticals/Chem10thexplained/FlameTest10/NavPages/ChemResources101.jsx'
+import ChemFeedback101 from './Components/Dashboard/ChemPracticals/Chem10thexplained/FlameTest10/NavPages/ChemFeedback101.jsx'
+import ChemVideo101 from './Components/Dashboard/ChemPracticals/Chem10thexplained/FlameTest10/NavPages/ChemVideo101.jsx'
+
+// chem 10 2
+import M10Outlet from './Components/Dashboard/ChemPracticals/Chem10thexplained/Molarity10/Molarity10Outlet.jsx'
+import ChemTheory102 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Molarity10/NavPages/ChemTheory102.jsx'
+import ChemAnimation102 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Molarity10/NavPages/ChemAnimation102.jsx'
+import ChemProcedure102 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Molarity10/NavPages/ChemProcedure102.jsx'
+import ChemSimulator102 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Molarity10/NavPages/ChemSimulator102.jsx'
+import ChemVivaVoice102 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Molarity10/NavPages/ChemVivaVoice102.jsx'
+import ChemResources102 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Molarity10/NavPages/ChemResources102.jsx'
+import ChemFeedback102 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Molarity10/NavPages/ChemFeedback102.jsx'
+import ChemVideo102 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Molarity10/NavPages/ChemVideo102.jsx'
+
+// chem 10 3
+import A10Outlet from './Components/Dashboard/ChemPracticals/Chem10thexplained/Aldehydes10/Aldehydes10Outlet.jsx'
+import ChemTheory103 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Aldehydes10/NavPages/ChemTheory103.jsx'
+import ChemAnimation103 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Aldehydes10/NavPages/ChemAnimation103.jsx'
+import ChemProcedure103 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Aldehydes10/NavPages/ChemProcedure103.jsx'
+import ChemSimulator103 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Aldehydes10/NavPages/ChemSimulator103.jsx'
+import ChemVivaVoice103 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Aldehydes10/NavPages/ChemVivaVoice103.jsx'
+import ChemResources103 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Aldehydes10/NavPages/ChemResources103.jsx'
+import ChemFeedback103 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Aldehydes10/NavPages/ChemFeedback103.jsx'
+import ChemVideo103 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Aldehydes10/NavPages/ChemVideo103.jsx'
+
+// chem 10 4
+import Ket10Outlet from './Components/Dashboard/ChemPracticals/Chem10thexplained/Ketones10/Ketones10Outlet.jsx'
+import ChemTheory104 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Ketones10/NavPages/ChemTheory104.jsx'
+import ChemAnimation104 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Ketones10/NavPages/ChemAnimation104.jsx'
+import ChemProcedure104 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Ketones10/NavPages/ChemProcedure104.jsx'
+import ChemSimulator104 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Ketones10/NavPages/ChemSimulator104.jsx'
+import ChemVivaVoice104 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Ketones10/NavPages/ChemVivaVoice104.jsx'
+import ChemResources104 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Ketones10/NavPages/ChemResources104.jsx'
+import ChemFeedback104 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Ketones10/NavPages/ChemFeedback104.jsx'
+import ChemVideo104 from './Components/Dashboard/ChemPracticals/Chem10thexplained/Ketones10/NavPages/ChemVideo104.jsx'
+
+// // chem 10 5
+import NaOH10Outlet from './Components/Dashboard/ChemPracticals/Chem10thexplained/NaOH10/NaOH10Outlet.jsx'
+import ChemTheory105 from './Components/Dashboard/ChemPracticals/Chem10thexplained/NaOH10/NavPages/ChemTheory105.jsx'
+import ChemAnimation105 from './Components/Dashboard/ChemPracticals/Chem10thexplained/NaOH10/NavPages/ChemAnimation105.jsx'
+import ChemProcedure105 from './Components/Dashboard/ChemPracticals/Chem10thexplained/NaOH10/NavPages/ChemProcedure105.jsx'
+import ChemSimulator105 from './Components/Dashboard/ChemPracticals/Chem10thexplained/NaOH10/NavPages/ChemSimulator105.jsx'
+import ChemVivaVoice105 from './Components/Dashboard/ChemPracticals/Chem10thexplained/NaOH10/NavPages/ChemVivaVoice105.jsx'
+import ChemResources105 from './Components/Dashboard/ChemPracticals/Chem10thexplained/NaOH10/NavPages/ChemResources105.jsx'
+import ChemFeedback105 from './Components/Dashboard/ChemPracticals/Chem10thexplained/NaOH10/NavPages/ChemFeedback105.jsx'
+import ChemVideo105 from './Components/Dashboard/ChemPracticals/Chem10thexplained/NaOH10/NavPages/ChemVideo105.jsx'
+
+// // chem 10 6
+import KMnO410Outlet from './Components/Dashboard/ChemPracticals/Chem10thexplained/KMnO410/KMnO410Outlet.jsx'
+import ChemTheory106 from './Components/Dashboard/ChemPracticals/Chem10thexplained/KMnO410/NavPages/ChemTheory106.jsx'
+import ChemAnimation106 from './Components/Dashboard/ChemPracticals/Chem10thexplained/KMnO410/NavPages/ChemAnimation106.jsx'
+import ChemProcedure106 from './Components/Dashboard/ChemPracticals/Chem10thexplained/KMnO410/NavPages/ChemProcedure106.jsx'
+import ChemSimulator106 from './Components/Dashboard/ChemPracticals/Chem10thexplained/KMnO410/NavPages/ChemSimulator106.jsx'
+import ChemVivaVoice106 from './Components/Dashboard/ChemPracticals/Chem10thexplained/KMnO410/NavPages/ChemVivaVoice106.jsx'
+import ChemResources106 from './Components/Dashboard/ChemPracticals/Chem10thexplained/KMnO410/NavPages/ChemResources106.jsx'
+import ChemFeedback106 from './Components/Dashboard/ChemPracticals/Chem10thexplained/KMnO410/NavPages/ChemFeedback106.jsx'
+import ChemVideo106 from './Components/Dashboard/ChemPracticals/Chem10thexplained/KMnO410/NavPages/ChemVideo106.jsx'
+
 const App = () => {
   return (
     <Router>
@@ -266,8 +332,6 @@ const App = () => {
           <DashboardLayout>
             <Routes>
               <Route index element={<Dashmain />} />
-              {/* Add a new route for Practicals */}
-
               <Route path="phypracticals/*" element={
                 <Routes>
                   <Route index element={<PhyPracticals />} />
@@ -628,7 +692,101 @@ const App = () => {
               } />
 
               {/* CHEMISTRY */}
-              <Route path="chempracticals" element={<ChemPracticals />} />
+              <Route path="chempracticals/*" element={
+                <Routes>
+                  <Route index element={<ChemPracticals />} />
+
+                  <Route path="FlameTest10/*" element={
+                    <FT10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<ChemTheory101 />} />
+                        <Route path="animation" element={<ChemAnimation101 />} />
+                        <Route path="procedure" element={<ChemProcedure101 />} />
+                        <Route path="simulator" element={<ChemSimulator101 />} />
+                        <Route path="video" element={<ChemVideo101 />} />
+                        <Route path="viva" element={<ChemVivaVoice101 />} />
+                        <Route path="resources" element={<ChemResources101 />} />
+                        <Route path="feedback" element={<ChemFeedback101 />} />
+                      </Routes>
+                    </FT10Outlet>
+                  } />
+
+                  <Route path="Molarity10/*" element={
+                    <M10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<ChemTheory102 />} />
+                        <Route path="animation" element={<ChemAnimation102 />} />
+                        <Route path="procedure" element={<ChemProcedure102 />} />
+                        <Route path="simulator" element={<ChemSimulator102 />} />
+                        <Route path="video" element={<ChemVideo102 />} />
+                        <Route path="viva" element={<ChemVivaVoice102 />} />
+                        <Route path="resources" element={<ChemResources102 />} />
+                        <Route path="feedback" element={<ChemFeedback102 />} />
+                      </Routes>
+                    </M10Outlet>
+                  } />
+
+                  <Route path="Aldehydes10/*" element={
+                    <A10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<ChemTheory103 />} />
+                        <Route path="animation" element={<ChemAnimation103 />} />
+                        <Route path="procedure" element={<ChemProcedure103 />} />
+                        <Route path="simulator" element={<ChemSimulator103 />} />
+                        <Route path="video" element={<ChemVideo103 />} />
+                        <Route path="viva" element={<ChemVivaVoice103 />} />
+                        <Route path="resources" element={<ChemResources103 />} />
+                        <Route path="feedback" element={<ChemFeedback103 />} />
+                      </Routes>
+                    </A10Outlet>
+                  } />
+
+                  <Route path="Ketones10/*" element={
+                    <Ket10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<ChemTheory104 />} />
+                        <Route path="animation" element={<ChemAnimation104 />} />
+                        <Route path="procedure" element={<ChemProcedure104 />} />
+                        <Route path="simulator" element={<ChemSimulator104 />} />
+                        <Route path="video" element={<ChemVideo104 />} />
+                        <Route path="viva" element={<ChemVivaVoice104 />} />
+                        <Route path="resources" element={<ChemResources104 />} />
+                        <Route path="feedback" element={<ChemFeedback104 />} />
+                      </Routes>
+                    </Ket10Outlet>
+                  } />
+
+                  <Route path="NaOH10/*" element={
+                    <NaOH10Outlet>
+                      <Routes>
+                        <Route path="theory" element={<ChemTheory105 />} />
+                        <Route path="animation" element={<ChemAnimation105 />} />
+                        <Route path="procedure" element={<ChemProcedure105 />} />
+                        <Route path="simulator" element={<ChemSimulator105 />} />
+                        <Route path="video" element={<ChemVideo105 />} />
+                        <Route path="viva" element={<ChemVivaVoice105 />} />
+                        <Route path="resources" element={<ChemResources105 />} />
+                        <Route path="feedback" element={<ChemFeedback105 />} />
+                      </Routes>
+                    </NaOH10Outlet>
+                  } />
+
+                  <Route path="KMnO410/*" element={
+                    <KMnO410Outlet>
+                      <Routes>
+                        <Route path="theory" element={<ChemTheory106 />} />
+                        <Route path="animation" element={<ChemAnimation106 />} />
+                        <Route path="procedure" element={<ChemProcedure106 />} />
+                        <Route path="simulator" element={<ChemSimulator106 />} />
+                        <Route path="video" element={<ChemVideo106 />} />
+                        <Route path="viva" element={<ChemVivaVoice106 />} />
+                        <Route path="resources" element={<ChemResources106 />} />
+                        <Route path="feedback" element={<ChemFeedback106 />} />
+                      </Routes>
+                    </KMnO410Outlet>
+                  } />
+                </Routes>
+              } />
             </Routes>
           </DashboardLayout>
         }
