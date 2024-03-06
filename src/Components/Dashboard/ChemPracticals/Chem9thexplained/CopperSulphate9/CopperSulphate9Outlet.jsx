@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from './Nav/Nav'
-// import OhmImage from "../../../../../assets/ohm1.png"
+import OhmImage from "../../../../../assets/ohm1.png"
 
 const CellWallAlovera9Outlet = ({ children }) => {
     return (
@@ -9,15 +9,15 @@ const CellWallAlovera9Outlet = ({ children }) => {
                 <div className="top h-60 uppercase flex items-center justify-between bg-overviewWhite rounded-lg">
                     <div className="left pl-10">
                         <p className="text-dark50 font-medium text-2xl">Chemistry</p>
-                        <div className="font-bold text-5xl w-3/3" style={{
+                        <div className="font-bold text-5xl w-5/6" style={{
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
-                        }}>IDENTIFICATION OF CELL WALL, CELL MEMBRANE, CYTOPLASM, NUCLEUS AND CHLOROPLAST USING MICROSCOPE (ALOVERA)</div>
+                        }}>PREPARE PURE COPPER SULPHATE CRYSTAL FROM THE GIVEN IMPURE SAMPLE</div>
                     </div>
 
                     <div className="right p-5">
-                        {/* <img src={OhmImage} alt="" /> */}
+                        <img src={OhmImage} alt="" />
                     </div>
                 </div>
 

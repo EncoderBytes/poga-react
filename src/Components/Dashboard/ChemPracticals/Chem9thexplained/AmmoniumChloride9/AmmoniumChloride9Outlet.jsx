@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from './Nav/Nav'
 import OhmImage from "../../../../../assets/ohm1.png"
 
-const Amoeba9Outlet = ({ children }) => {
+const AmmoniumChloride9Outlet = ({ children }) => {
     return (
         <div className="bg-dashmain py-5">
             <div className='w-11/12 m-auto '>
@@ -13,7 +13,7 @@ const Amoeba9Outlet = ({ children }) => {
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
-                        }}>OBSERVATION OF BINARY FISSION IN AMOEBA BY USING SLIDES/CHARTS</div>
+                        }}>TO DEMONSTRATE SUBLIMATION USING SOLID AMMONIUM CHLORIDE</div>
                     </div>
 
                     <div className="right p-5">
@@ -30,4 +30,4 @@ const Amoeba9Outlet = ({ children }) => {
     )
 }
 
-export default Amoeba9Outlet
+export default AmmoniumChloride9Outlet

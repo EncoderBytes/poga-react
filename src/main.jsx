@@ -320,6 +320,61 @@ import ChemResources106 from './Components/Dashboard/ChemPracticals/Chem10thexpl
 import ChemFeedback106 from './Components/Dashboard/ChemPracticals/Chem10thexplained/KMnO410/NavPages/ChemFeedback106.jsx'
 import ChemVideo106 from './Components/Dashboard/ChemPracticals/Chem10thexplained/KMnO410/NavPages/ChemVideo106.jsx'
 
+// 9 1
+import Dist9Outlet from './Components/Dashboard/ChemPracticals/Chem9thexplained/Distilation9/Distilation9Outlet.jsx'
+import ChemTheory91 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Distilation9/NavPages/ChemTheory91.jsx'
+import ChemAnimation91 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Distilation9/NavPages/ChemAnimation91.jsx'
+import ChemProcedure91 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Distilation9/NavPages/ChemProcedure91.jsx'
+import ChemSimulator91 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Distilation9/NavPages/ChemSimulator91.jsx'
+import ChemVivaVoice91 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Distilation9/NavPages/ChemVivaVoice91.jsx'
+import ChemResources91 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Distilation9/NavPages/ChemResources91.jsx'
+import ChemFeedback91 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Distilation9/NavPages/ChemFeedback91.jsx'
+import ChemVideo91 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Distilation9/NavPages/ChemVideo91.jsx'
+
+// 9 2
+import EA9Outlet from './Components/Dashboard/ChemPracticals/Chem9thexplained/EthyleAlcohol9/EthyleAlcohol9Outlet.jsx'
+import ChemTheory92 from './Components/Dashboard/ChemPracticals/Chem9thexplained/EthyleAlcohol9/NavPages/ChemTheory92.jsx'
+import ChemAnimation92 from './Components/Dashboard/ChemPracticals/Chem9thexplained/EthyleAlcohol9/NavPages/ChemAnimation92.jsx'
+import ChemProcedure92 from './Components/Dashboard/ChemPracticals/Chem9thexplained/EthyleAlcohol9/NavPages/ChemProcedure92.jsx'
+import ChemSimulator92 from './Components/Dashboard/ChemPracticals/Chem9thexplained/EthyleAlcohol9/NavPages/ChemSimulator92.jsx'
+import ChemVivaVoice92 from './Components/Dashboard/ChemPracticals/Chem9thexplained/EthyleAlcohol9/NavPages/ChemVivaVoice92.jsx'
+import ChemResources92 from './Components/Dashboard/ChemPracticals/Chem9thexplained/EthyleAlcohol9/NavPages/ChemResources92.jsx'
+import ChemFeedback92 from './Components/Dashboard/ChemPracticals/Chem9thexplained/EthyleAlcohol9/NavPages/ChemFeedback92.jsx'
+import ChemVideo92 from './Components/Dashboard/ChemPracticals/Chem9thexplained/EthyleAlcohol9/NavPages/ChemVideo92.jsx'
+
+// 9 3
+import Nap9Outlet from './Components/Dashboard/ChemPracticals/Chem9thexplained/Naphthalene9/Naphthalene9Outlet.jsx'
+import ChemTheory93 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Naphthalene9/NavPages/ChemTheory93.jsx'
+import ChemAnimation93 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Naphthalene9/NavPages/ChemAnimation93.jsx'
+import ChemProcedure93 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Naphthalene9/NavPages/ChemProcedure93.jsx'
+import ChemSimulator93 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Naphthalene9/NavPages/ChemSimulator93.jsx'
+import ChemVivaVoice93 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Naphthalene9/NavPages/ChemVivaVoice93.jsx'
+import ChemResources93 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Naphthalene9/NavPages/ChemResources93.jsx'
+import ChemFeedback93 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Naphthalene9/NavPages/ChemFeedback93.jsx'
+import ChemVideo93 from './Components/Dashboard/ChemPracticals/Chem9thexplained/Naphthalene9/NavPages/ChemVideo93.jsx'
+
+// 9 4
+import CS9Outlet from './Components/Dashboard/ChemPracticals/Chem9thexplained/CopperSulphate9/CopperSulphate9Outlet.jsx'
+import ChemTheory94 from './Components/Dashboard/ChemPracticals/Chem9thexplained/CopperSulphate9/NavPages/ChemTheory94.jsx'
+import ChemAnimation94 from './Components/Dashboard/ChemPracticals/Chem9thexplained/CopperSulphate9/NavPages/ChemAnimation94.jsx'
+import ChemProcedure94 from './Components/Dashboard/ChemPracticals/Chem9thexplained/CopperSulphate9/NavPages/ChemProcedure94.jsx'
+import ChemSimulator94 from './Components/Dashboard/ChemPracticals/Chem9thexplained/CopperSulphate9/NavPages/ChemSimulator94.jsx'
+import ChemVivaVoice94 from './Components/Dashboard/ChemPracticals/Chem9thexplained/CopperSulphate9/NavPages/ChemVivaVoice94.jsx'
+import ChemResources94 from './Components/Dashboard/ChemPracticals/Chem9thexplained/CopperSulphate9/NavPages/ChemResources94.jsx'
+import ChemFeedback94 from './Components/Dashboard/ChemPracticals/Chem9thexplained/CopperSulphate9/NavPages/ChemFeedback94.jsx'
+import ChemVideo94 from './Components/Dashboard/ChemPracticals/Chem9thexplained/CopperSulphate9/NavPages/ChemVideo94.jsx'
+
+// 9 5
+import AC9Outlet from './Components/Dashboard/ChemPracticals/Chem9thexplained/AmmoniumChloride9/AmmoniumChloride9Outlet.jsx'
+import ChemTheory95 from './Components/Dashboard/ChemPracticals/Chem9thexplained/AmmoniumChloride9/NavPages/ChemTheory95.jsx'
+import ChemAnimation95 from './Components/Dashboard/ChemPracticals/Chem9thexplained/AmmoniumChloride9/NavPages/ChemAnimation95.jsx'
+import ChemProcedure95 from './Components/Dashboard/ChemPracticals/Chem9thexplained/AmmoniumChloride9/NavPages/ChemProcedure95.jsx'
+import ChemSimulator95 from './Components/Dashboard/ChemPracticals/Chem9thexplained/AmmoniumChloride9/NavPages/ChemSimulator95.jsx'
+import ChemVivaVoice95 from './Components/Dashboard/ChemPracticals/Chem9thexplained/AmmoniumChloride9/NavPages/ChemVivaVoice95.jsx'
+import ChemResources95 from './Components/Dashboard/ChemPracticals/Chem9thexplained/AmmoniumChloride9/NavPages/ChemResources95.jsx'
+import ChemFeedback95 from './Components/Dashboard/ChemPracticals/Chem9thexplained/AmmoniumChloride9/NavPages/ChemFeedback95.jsx'
+import ChemVideo95 from './Components/Dashboard/ChemPracticals/Chem9thexplained/AmmoniumChloride9/NavPages/ChemVideo95.jsx'
+
 const App = () => {
   return (
     <Router>
@@ -785,6 +840,87 @@ const App = () => {
                       </Routes>
                     </KMnO410Outlet>
                   } />
+
+                  {/* 9 1 */}
+                  <Route path="Distilation9/*" element={
+                    <Dist9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<ChemTheory91 />} />
+                        <Route path="animation" element={<ChemAnimation91 />} />
+                        <Route path="procedure" element={<ChemProcedure91 />} />
+                        <Route path="simulator" element={<ChemSimulator91 />} />
+                        <Route path="video" element={<ChemVideo91 />} />
+                        <Route path="viva" element={<ChemVivaVoice91 />} />
+                        <Route path="resources" element={<ChemResources91 />} />
+                        <Route path="feedback" element={<ChemFeedback91 />} />
+                      </Routes>
+                    </Dist9Outlet>
+                  } />
+
+                  {/* 9 2 */}
+                  <Route path="EthyleAlcohol9/*" element={
+                    <EA9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<ChemTheory92 />} />
+                        <Route path="animation" element={<ChemAnimation92 />} />
+                        <Route path="procedure" element={<ChemProcedure92 />} />
+                        <Route path="simulator" element={<ChemSimulator92 />} />
+                        <Route path="video" element={<ChemVideo92 />} />
+                        <Route path="viva" element={<ChemVivaVoice92 />} />
+                        <Route path="resources" element={<ChemResources92 />} />
+                        <Route path="feedback" element={<ChemFeedback92 />} />
+                      </Routes>
+                    </EA9Outlet>
+                  } />
+
+                  {/* 9 3*/}
+                  <Route path="Naphthalene9/*" element={
+                    <Nap9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<ChemTheory93 />} />
+                        <Route path="animation" element={<ChemAnimation93 />} />
+                        <Route path="procedure" element={<ChemProcedure93 />} />
+                        <Route path="simulator" element={<ChemSimulator93 />} />
+                        <Route path="video" element={<ChemVideo93 />} />
+                        <Route path="viva" element={<ChemVivaVoice93 />} />
+                        <Route path="resources" element={<ChemResources93 />} />
+                        <Route path="feedback" element={<ChemFeedback93 />} />
+                      </Routes>
+                    </Nap9Outlet>
+                  } />
+
+                  {/* 9 4*/}
+                  <Route path="CopperSulphate9/*" element={
+                    <CS9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<ChemTheory94 />} />
+                        <Route path="animation" element={<ChemAnimation94 />} />
+                        <Route path="procedure" element={<ChemProcedure94 />} />
+                        <Route path="simulator" element={<ChemSimulator94 />} />
+                        <Route path="video" element={<ChemVideo94 />} />
+                        <Route path="viva" element={<ChemVivaVoice94 />} />
+                        <Route path="resources" element={<ChemResources94 />} />
+                        <Route path="feedback" element={<ChemFeedback94 />} />
+                      </Routes>
+                    </CS9Outlet>
+                  } />
+
+                    {/* 9 5*/}
+                    <Route path="AmmoniumChloride9/*" element={
+                    <AC9Outlet>
+                      <Routes>
+                        <Route path="theory" element={<ChemTheory95 />} />
+                        <Route path="animation" element={<ChemAnimation95 />} />
+                        <Route path="procedure" element={<ChemProcedure95 />} />
+                        <Route path="simulator" element={<ChemSimulator95 />} />
+                        <Route path="video" element={<ChemVideo95 />} />
+                        <Route path="viva" element={<ChemVivaVoice95 />} />
+                        <Route path="resources" element={<ChemResources95 />} />
+                        <Route path="feedback" element={<ChemFeedback95 />} />
+                      </Routes>
+                    </AC9Outlet>
+                  } />
+
                 </Routes>
               } />
             </Routes>

@@ -8,28 +8,28 @@ const Nav = () => {
             <nav className="bottom w-full h-14 rounded-lg bg-dark25 flex  justify-start items-center" >
                 <ul className='flex'>
                     <li className=''>
-                        <NavLink to="/Dashmain/biopracticals/CellWallAlovera9/theory" className="py-4 px-6 rounded-lg"> Theory  </NavLink>
+                        <NavLink to="/Dashmain/chempracticals/CopperSulphate9/theory" className="py-4 px-6 rounded-lg"> Theory  </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/biopracticals/CellWallAlovera9/procedure" className="py-4 px-6 rounded-lg">Procedure</NavLink>
+                        <NavLink to="/Dashmain/chempracticals/CopperSulphate9/procedure" className="py-4 px-6 rounded-lg">Procedure</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/biopracticals/CellWallAlovera9/animation" className="py-4 px-6 rounded-lg">Animation</NavLink>
+                        <NavLink to="/Dashmain/chempracticals/CopperSulphate9/animation" className="py-4 px-6 rounded-lg">Animation</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/biopracticals/CellWallAlovera9/simulator" className="py-4 px-6 rounded-lg">Simulator</NavLink>
+                        <NavLink to="/Dashmain/chempracticals/CopperSulphate9/simulator" className="py-4 px-6 rounded-lg">Simulator</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/biopracticals/CellWallAlovera9/video" className="py-4 px-6 rounded-lg">Video</NavLink>
+                        <NavLink to="/Dashmain/chempracticals/CopperSulphate9/video" className="py-4 px-6 rounded-lg">Video</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/biopracticals/CellWallAlovera9/viva" className="py-4 px-6 rounded-lg">Viva Voice</NavLink>
+                        <NavLink to="/Dashmain/chempracticals/CopperSulphate9/viva" className="py-4 px-6 rounded-lg">Viva Voice</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/biopracticals/CellWallAlovera9/resources" className="py-4 px-6 rounded-lg">Resources</NavLink>
+                        <NavLink to="/Dashmain/chempracticals/CopperSulphate9/resources" className="py-4 px-6 rounded-lg">Resources</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Dashmain/biopracticals/CellWallAlovera9/feedback" className="py-4 px-6 rounded-lg">Feedback</NavLink>
+                        <NavLink to="/Dashmain/chempracticals/CopperSulphate9/feedback" className="py-4 px-6 rounded-lg">Feedback</NavLink>
                     </li>
                 </ul>
             </nav >

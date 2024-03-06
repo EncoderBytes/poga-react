@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from './Nav/Nav'
 import OhmImage from "../../../../../assets/ohm1.png"
 
-const Plasmolysis9Outlet = ({ children }) => {
+const EthyleAlcohol9Outlet = ({ children }) => {
     return (
         <div className="bg-dashmain py-5">
             <div className='w-11/12 m-auto '>
@@ -13,7 +13,7 @@ const Plasmolysis9Outlet = ({ children }) => {
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
-                        }}>DETERMINATION OF THE EFFECT OF TONICITY ON PLASMOLYSIS AND DE-PLASMOLYSIS IN PLANT CELLS</div>
+                        }}>TO DETERMINE THE BOILING POINT OF ETHYL ALCOHOL</div>
                     </div>
 
                     <div className="right p-5">
@@ -30,4 +30,4 @@ const Plasmolysis9Outlet = ({ children }) => {
     )
 }
 
-export default Plasmolysis9Outlet
+export default EthyleAlcohol9Outlet

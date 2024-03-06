@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from './Nav/Nav'
 import OhmImage from "../../../../../assets/ohm1.png"
 
-const StudyOfBacteria9Outlet = ({ children }) => {
+const Naphthalene9Outlet = ({ children }) => {
     return (
         <div className="bg-dashmain py-5">
             <div className='w-11/12 m-auto '>
@@ -13,7 +13,7 @@ const StudyOfBacteria9Outlet = ({ children }) => {
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
-                        }}>STUDY TYPES OF BACTERIA, AMOEBA, PARAMECIUM, AND VOLVOX WITH THE HELP OF PREPARED SLIDES</div>
+                        }}>TO DETERMINE THE MELTING POINT OF NAPHTHALENE</div>
                     </div>
 
                     <div className="right p-5">
@@ -30,4 +30,4 @@ const StudyOfBacteria9Outlet = ({ children }) => {
     )
 }
 
-export default StudyOfBacteria9Outlet
+export default Naphthalene9Outlet

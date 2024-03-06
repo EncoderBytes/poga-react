@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from './Nav/Nav'
 import OhmImage from "../../../../../assets/ohm1.png"
 
-const MicroScopicEx9Outlet = ({ children }) => {
+const Distilation9Outlet = ({ children }) => {
     return (
         <div className="bg-dashmain py-5">
             <div className='w-11/12 m-auto '>
@@ -13,7 +13,7 @@ const MicroScopicEx9Outlet = ({ children }) => {
                             background: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
-                        }}>MICROSCOPIC EXAMINATION OF AN ANIMAL CELL  AND A PLANT CELL USING APPROPRIATE TEMPORARY TECHNIQUES</div>
+                        }}>SEPARATE THE GIVEN MIXTURE OF ALCOHOL AND WATER BY DISTILLATION</div>
                     </div>
 
                     <div className="right p-5">
@@ -30,4 +30,4 @@ const MicroScopicEx9Outlet = ({ children }) => {
     )
 }
 
-export default MicroScopicEx9Outlet
+export default Distilation9Outlet
